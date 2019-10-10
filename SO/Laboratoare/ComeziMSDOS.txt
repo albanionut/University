@@ -1,0 +1,51 @@
+xcopy /t /e "C:\Your Folder" "C:\New Folder"
+/t = Copies the subdirectory structure, but not the files
+/e = Copies subdirectories, including any empty ones
+
+i)
+md a1
+cd a1
+echo > fis1.txt
+cd..
+md a2
+md a3\b2\c1 a3\b2\c2
+cd a3\b2\c2
+echo > fis2.txt
+cd../../..
+md a4\b1 a4\b2 
+cd a4/b2
+echo > fis1.txt
+cd../..
+
+ii)
+cd a3/b2/c2
+copy fis2.txt c:\lucru\lab2albanionut\a1\
+cd../../..
+
+iii)
+cd a4
+copy c:\lucru\lab2albanionut\a1\fis1.txt +
+ c:\lucru\lab2albanionut\a3\b2\c2\fis2.txt +
+ c:\lucru\lab2albanionut\a4\b2\fis1.txt fiscon.txt
+
+iv)
+cd..
+xcopy /e c:\lucru\lab2albanionut\a4 c:\lucru\lab2albanionut\a2
+
+v)
+cd a1
+dir
+
+Linux)
+for fis in *
+do
+sort $fis | more 
+done
+
+afisarea fisierelor
+chmod 777 fisier -drepturi
+
+mkdir -create folder linux
+
+
+
