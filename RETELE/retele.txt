@@ -1,0 +1,196 @@
+1. Ce implica securitatea sistemelor informatice?
+   # toate 4 corecte
+
+2. Care dintre urmatoarele actiuni se vor efectua daca o gazda din reteaua A vrea sa 
+   transmita date la o gazda din reteaua B, cand cadrele de date care vin de la reteaua A ajung
+   la router?
+   # Consulta tabelele de rutare alre routerului... cea mai lunga
+   # Extrage antetul cadrului de date, care contine adresele MAC ale suresei si destinatiei
+   # Examineaza adresa nivelului retea, pentru a determina reteaua destinatie
+
+3. Schema de adresare a nivelului retea permite comunicarea dintre:
+   # doua gazde intr-o inter-retea
+
+4. Care dintre urmatoarele afirmatii nu sunt adevarate?
+   # Folosirea de catre utilizatorii retelei, care actioenaza la nivelul aplicatie al arhitecturii de retea a adreselor este dificila si poate genera erori
+
+5. Suma de control reprezinta mecanismul de detectie a erorilor din cadrul unui segment, 
+   deci asigura transmisia sigura a antetului tcp, a antetului Ip si a datelor transportate
+   in cadrul segmentului
+   # Adevarat
+
+6. UDP realizeaza transportul fiabil a datelor intre gazde
+   # FALS
+
+7. Costul conexiunilor dintre doua routere de retea poate viza:
+   #incarcarea
+   #intarzierea
+   #viteza de rutare
+
+8. Caracteristici ale nivelului aplicatiei:
+   # ofera servicii aplciatiilor care se executa in afara modelului OSI
+   # este cel accesibil nivel pentru sistemele soft ale utilizatorilor finali
+
+9. Controlul congestiei sub tcp nu se bazeaza pe urmatoarea idee: gazda sursa trebuie sa fie capabila...
+   # FALS
+
+10. Protocolo Positive Acknowledgement and Retransmission (PAR) este:
+    #un mecanism de control al fluxului, care consta in necesitatea ca unitatea sursa  sa primeasca
+
+11. Ce aspecte sunt urmarite in momentul in care este analizat un scenariu de risc pentru o
+   amenintare?
+   #durata impact 
+   #componente afectate
+   #raza de afectiune a efectelor
+
+12. Tabelele de rutare pot fi modificate manual, de catre administratorul de retea ( rutare
+  statica) sau automat ( rutare dinamica).
+  #adevarat
+
+13. Redirectarea este protocolul care lucreaza la nivelul sistemului de operare si permite
+   sa se faca distinctie intre cererile adresate unitatii centrale a calculatorului 
+   respectiv si cele adresate unui server.
+   #adevarat
+
+14. Adresa IP poate fi reprezentata si zecimal, numerele care corespund continului celor 
+   patru octeti ai adresei reprezinta echivalentul zecimal al acestora si sunt separate 
+   prin punct.
+   #adevarat
+
+15. Problema evitarii congestiei trebuie rezolvata la nivel de:
+    #router
+
+16. Ce trebuie respectat pentru a utiliza corect conexiunea internet?
+    #toate
+
+17. Lucrul in retea presupune doua scheme de adresare: una foloseste adresele MAC, adica
+   o adresa la nivelul 2 iar alta foloseste o adresa a nivelului retea cum esre adresa IP:
+   #adevarat
+
+18. Ce conexiuni se realizeaza in cazul serviciilor proxy>
+    # client Server proxy
+    # server proxy - server real
+
+19. Prima linie a unei cerei HTTP  contine trei elemente:
+    #operatia care va fi executata
+    #versiunea protocolului HTTP
+    #pagina web pe care va fi executata operatia
+
+20.Pentru reteaua reprezentata ca un graf cum este realizata rutarea?
+   #rutarea este realizata prin executia protocoalelor de rutare pe fiecare dintre nodurile retelei, care furnizeaza o solutie dinamica a determinarii drumului de cost minim, in conditiile modificarii configuratiei retelei
+
+21. Primul bit in adresele de clasa A, in format binar nu este intotdeauna 0.
+    #fals
+
+52.Care sunt dintre urmatoarele sunt categorii de protocoale de rutare pentru reteaua organizata sub forma de graf?
+   # Bazate pe starea legaturilor
+   # bazate pe vectorul distanta  
+
+51.Problema gasirii unui drum minim intre doua noduri de retea prezinta urmatoarele dezavantaje.
+   # nu ia in consideratie posibilitatea adaugitii unui nod
+   # nu ia in consideratie posibilitatea defectarii unui nod sau a unei legaturi
+
+50.Pentru determinarea subretelei careia ii apartine o anumita gazda se executa o operatie "si" login intre adresa IP a gazdei destinatie si masca de subretea, exprimate in forma binara. Rezultatul va fi adresa IP a retelei(subretelei)
+   # Adevarat
+
+49.Marcati caracteristici ale UDP (User Datagram Protocol)
+   # nu contine componente de verificare a furnizarii mesajelor, nu reasambleaza mesajele sosite
+   # nu este orientat pe conexiune, nu este fiabil
+   # nu folosestea confirmarea, nu realizeaza controlul fluxului
+
+48.Indicati campuri din antetul unui segment TCP.
+   # toate
+
+47.Enumerati protocoalele care folosesc UDP (User Datagram Protocol)
+   # toate
+
+46.Ce face un program de tip sniffer.
+   # permite ascultarea datelor
+
+45.Ce activitati tin de securitatea IT?
+   # toate
+
+44.Ce se intampla atunci cand valoarea timpului de asteptare pentru confirmarea unui pachet depaseste o anumita valoare(timeout)?
+   # Valoarea pragului de asteptate este impartita la 2
+
+43.La nivelul aplicatie, un server proxy are urmatoarele functii
+   # Autentificare
+   # Monitorizare
+   # Rutare ( raiu )
+
+42. Succint, rutarea si transmiterea mai departe a pachetelor se pot descrie astfel:
+    Pentru ca un pachet sa ajunga...
+    # Adevarat
+
+41.Transmission Control Protocol(TCP) furnizeaza
+   #Un circuit virtual intre aplicatiile utilizator
+   
+40.Care dintre urmatoarele reprezinta amenintari in retele de calculatoare?
+   #Interceptarea neautorixata , modificarea si distrugerea informatiilor
+   #Erori de software si de configurare
+   #Acces neautorizat la sisteme,folosirea unor componente de sistem sau de servicii de sistem sau ...
+
+39.Enumerati tipuri de adrese IP
+   #adrese de difuzare sau broadcast(toti bitii din campul de gazda sunt setati pe 1)
+   #adrese de retea(toti bitii din campul de gazda sunt setati pe 0)
+   #adrese de gazda
+
+38.Ce este autentificarea?
+   #identificarea si autorizarea unei persoana sau serviciu
+
+37.Securitatea internet are urmatoarele caracteristici
+   # implica protectia impotrivz malware (virusi,viermi,cal troian,etc.)
+
+36.Nivelul prezentare realizeaza urmatoarele functii
+   # Formatrea datelor
+   # Criptarea datelor
+   # Comprimarea datelor
+
+35. Ce putem spune despre un port inchis?
+    # Un port inchis nu primeste conexiuni, cereri sau pachete.
+    # Un firewall a blocat accesul la acel port.
+
+34.Care este numarul minim de biti ce pot fi imprumutati in cazul subretelelor?
+   # 2
+
+33.Principala calitate a User Datagram Protocol (UDP) este
+   # rapiditatea
+
+32.In cazul metodelor de rutare, schimbul de informatii intre noduri se poate realiza periodic, sau de fiecare data cand are loc o anumita modificare in structura retelei
+   # adevarat
+
+31.In configurarea DNS, atributul Tip=CNAME semnifica:
+   # o valoare care furnizeaza numele canonic al unei gazde particulare si este folosita pentru a defini
+
+30.Indicati caracteristici pentru o masina virtuala
+   # Va rula in cadrul sistemului de operare curent, denumit si host sau gazda, si va furniza servicii de tip hardware sistemului de operare guest (musafir), care va rula ca orice program compatibil cu acest sistem de operare
+
+29.Protocolul prin care se obtin informatiile de rutare de catre noduri se numeste
+  #Convergenta
+
+28.Nivelul prezentare al modelului de comunicare ISO OSI cuprinde si standarde pentru reprezentarea fisierelor multimedia, care contin sunete, muzica si filme..
+   #Toate
+
+27.Forwarding-ul este:
+  # procesul prin care un pachet este preluat de la o intrare a routerului si transmis catre iesirea corespunza
+  # procesul de construire si intretinere a tabelelor pe baza carora se desfasoara procesul de transmitere
+
+26.O interfata a unui router mai este denumita si
+  #port
+
+25.Caracteristici Transmission Control Protocol (TCP)?
+   # orientarea pe conexiune
+   # statia destinatar reasambleaza fragmentele aceluiasi mesaj primit
+   # gazda sursa poate fragmenta mesajele
+
+24.Rutarea este o problema de teoria grafurilor, iar nodurile grafului pot fi:
+   #toate
+
+23.Primul octet al unei adrese de clasa A identifica numarul de retea asignat de catre ARIN
+   #adevarat   
+
+22.Lungimea adresei IPV6 este
+   #16 octeti
+
+
+ 

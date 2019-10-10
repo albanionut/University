@@ -1,0 +1,14 @@
+Step-1:
+Start Server
+
+Ruleaza TicTacToeServer.java
+
+Step-2:
+Start Client pentru jucator-1
+
+Start TicTacToeCleint.java
+
+Step-3:
+Start Client pentru jucator-2
+
+Ruleaza TicTacToeCleint.java
