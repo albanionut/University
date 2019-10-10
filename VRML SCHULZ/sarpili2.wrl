@@ -1,0 +1,29 @@
+#VRML V2.0 utf8
+DEF tr Transform {
+children [
+Shape {
+appearance Appearance {
+material DEF mat Material { diffuseColor 1 0 0 }
+}
+geometry Sphere {}
+}
+DEF oi OrientationInterpolator {
+key [ 0 4]
+keyValue [ 0 0 1 0,
+0 0 1 3.14, # rotate right
+0 0 1 3.14] # rotate down
+}
+DEF ts TimeSensor {startTime 0
+cycleInterval 2
+loop FALSE
+}
+]
+}
+ROUTE ts.fraction_changed TO oi.set_fraction
+ROUTE oi.value_changed TO tr.set_rotation
+
+
+
+
+
+

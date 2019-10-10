@@ -1,0 +1,73 @@
+#VRML V2.0 utf8
+
+DEF sphere Transform{ 	
+			translation	-10 9 -20
+			children[
+				Shape{
+					appearance   	Appearance{
+									material Material{diffuseColor 1 0 0}
+							}#Appearance		
+
+					geometry      	Sphere{
+									radius 	2
+							} # Sphere
+				}#Shape
+			] # children inner transform node
+		} # inner transform node
+
+		
+Transform{ 	
+			translation	7 -4.3 -20
+			children[
+				Shape{
+					appearance   	Appearance{
+									material Material{diffuseColor 1 0 0}
+							}#Appearance		
+
+					geometry      	Box {
+								size 1.5 18 4
+
+							} # Sphere
+				}#Shape
+			] # children inner transform node
+		} # inner transform node
+
+Transform{ 	
+			translation	7 12 -20
+			children[
+				Shape{
+					appearance   	Appearance{
+									material Material{diffuseColor 1 0 0}
+							}#Appearance		
+
+					geometry      	Box {
+								size 1.5 5 4
+
+							} # Sphere
+				}#Shape
+			] # children inner transform node
+		} # inner transform node
+
+		DEF	timer TimeSensor {
+			cycleInterval 6
+			startTime 0
+			stopTime 0
+			loop FALSE
+		}
+		DEF	touchSphere TouchSensor {
+		
+		}
+		DEF	animatedSphere PositionInterpolator	{
+			key	[0 0.3 0.6 0.8 1]
+			keyValue [
+				-10 9 -20
+				-10 9 -20
+				4 -4.3 -20
+				4 7 -20
+				20 7 -20
+			]
+		}
+ROUTE touchSphere.touchTime	TO timer.startTime
+ROUTE  timer.fraction_changed TO  animatedSphere.set_fraction
+ROUTE animatedSphere.value_changed  TO sphere.translation
+

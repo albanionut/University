@@ -1,0 +1,1089 @@
+#VRML V2.0 utf8
+
+#Gruppe: Sava Vladut - Emil, Alban Ionut - Marius, Rusu Alexandru - Iulian
+
+EXTERNPROTO    Schneemann [ field  SFColor     farbe ] "Schneemann.wrl"
+
+Viewpoint {=20
+            description "Alles"
+            position 0 5 12
+            orientation 1 0 0 -.6
+       }=20
+Viewpoint {=20
+            description "Vogel Perspektive"
+            position 0 20 0
+            orientation 1 0 0 -1.5
+       }=20
+Viewpoint {=20
+            description "Bahnhof"
+            position 0 0.2 3.2
+            orientation 0 1 0 -3
+       }=20
+=09
+Background {
+    backUrl  "sky.jpg"=20
+    bottomUrl  "sky.jpg"=20
+    leftUrl  "sky.jpg"=20
+    rightUrl  "sky.jpg"=20
+    frontUrl  "sky.jpg"=20
+    topUrl  "sky.jpg"=20
+}
+
+AudioClip {
+	loop TRUE
+	pitch 1
+	startTime 0.01
+	stopTime 1000
+	url "Thomas.mp3"
+=09
+   }	  =20
+SpotLight {
+	on TRUE
+	intensity 0
+	ambientIntensity 0
+	color 1 1 1
+	location 0 40 0
+	direction 0 -1 0
+	attenuation 1 0 0
+	radius 100
+	cutOffAngle 0.78
+	beamWidth 1.57
+	}
+DEF Grund Transform { 										#Boden
+		translation 0 -.0001 0
+	=09
+		children[
+			Shape {
+				appearance Appearance{
+					material Material {}
+					texture ImageTexture{
+						url "grasstexture.jpg"
+					 }
+			 	 }
+			    geometry Box { size 20 0 10 }
+				=20
+			 }
+		 ]=09
+	 }	=20
+DEF Baum Transform { 										# Baum=20
+	=09
+		children[
+			Transform { 									#Koerper Zylinder
+		=09
+				translation 0 .5 0
+			=09
+					children[
+			=09
+						Shape {
+							appearance Appearance{
+							material Material{
+							diffuseColor 0.205 0.133 0.063
+							transparency 0}
+				=09
+					         }
+							geometry Cylinder{
+								radius 0.1
+								height 1
+					         }
+						 }
+					 ]
+			 }
+			Transform { 									#Koerper Blatter
+		=09
+				translation 0 1 0
+			=09
+					children[
+			=09
+						Shape {
+							appearance Appearance{
+							material Material{
+							diffuseColor 0 0.133 0.063
+							transparency 0}
+				=09
+					         }
+							geometry Cone{
+								bottomRadius .5
+								height .7
+					         }
+						 }
+					 ]
+			 }
+			=20
+			Transform { 									#Koerper Blatter 2
+		=09
+				translation 0 .7 0
+			=09
+					children[
+			=09
+						Shape {
+							appearance Appearance{
+							material Material{
+							diffuseColor 0 0.133 0.063
+							transparency 0}
+				=09
+					         }
+							geometry Cone{
+								bottomRadius .5
+								height .7
+					         }
+						 }
+					 ]
+			 }
+			=09
+		 ]
+		=20
+	 }	=20
+	=09
+		Transform {											#Baum 2
+			translation 0 0 4.5
+				children[
+					USE Baum
+					]
+			 }
+		=20
+		 Transform {										#Baum 3
+			translation 2.5 0 4.5
+				children[
+					USE Baum
+					]
+			 }
+			=20
+		 Transform {										#Baum 4
+			translation 5 0 2
+				children[
+					USE Baum
+					]
+			 }
+		 Transform {										#Baum 5
+			translation -5 0 2
+				children[
+					USE Baum
+					]
+			 }
+		 Transform {										#Baum 6
+			translation -3 0 1
+				children[
+					USE Baum
+					]
+			 }	=20
+	=09
+		 Transform {										#Baum 7
+			translation -9 0 3
+				children[
+					USE Baum
+					]
+			 }	=20
+	=09
+		 Transform {										#Baum 8
+			translation -8 0 4
+				children[
+					USE Baum
+					]
+			 }	=20
+			=20
+		 Transform {										#Baum 9
+			translation 8 0 4.5
+				children[
+					USE Baum
+					]
+			 }
+	=09
+		 Transform {										#Baum 10
+			translation 8 0 -4.5
+				children[
+					USE Baum
+					]
+			 }
+			=20
+		 Transform {										#Baum 11
+			translation 6 0 0
+				children[
+					USE Baum
+					]
+			 }	=20
+		=20
+		 Transform {										#Baum 12
+			translation 9 0 1.5
+				children[
+					USE Baum
+					]
+			 }
+			=20
+		 Transform {										#Baum 13
+			translation 0 0 -4.5
+				children[
+					USE Baum
+					]
+			 }=09
+	=09
+		 Transform {										#Baum 14
+			translation 4 0 -4.5
+				children[
+					USE Baum
+					]
+			 }	 	=20
+		=20
+		 Transform {										#Baum 15
+			translation 4 0 -1.5
+				children[
+					USE Baum
+					]
+			 }	 	=20
+
+		 Transform {										#Baum 16
+			translation -8 0 -4
+				children[
+					USE Baum
+					]
+			 }	 	=20
+		=20
+		 Transform {										#Baum 17
+			translation 0 0 -4.5
+				children[
+					USE Baum
+					]
+			 }	 	=20
+
+		 Transform {										#Baum 18
+			translation 0 0 -4.5
+				children[
+					USE Baum
+					]
+			 }	 	=20
+
+		 Transform {										#Baum 19
+			translation -9 0 0
+				children[
+					USE Baum
+					]
+			 }	 	=20
+
+			=20
+DEF Bahnhof Transform { 									#Bahnhof Koerper
+		translation 0 .5 2
+	=09
+		children[
+			Shape {
+				appearance Appearance{
+				material Material{}
+				texture ImageTexture{
+					url "bahnhof.jpg"
+					}
+				 }
+				 geometry Box { size 5 1 2 }
+			 }
+		 ]
+	=20
+	 }
+	=09
+
+DEF Tur Transform { 										# Bahnhof Tur
+		scale 2 .5 0.1
+		translation 0 0.2 3
+	=09
+		children[
+			Shape {
+				appearance Appearance{
+				material Material{}
+				texture ImageTexture{
+					url "turtexture.jpg"
+					}
+				 }
+				 geometry Box {size .3 .8 .3}
+			 }
+		 ]
+	 }
+DEF Fenster Transform { 									# Bahnhof Fenster
+		scale 2 .5 0.1
+		translation 1 .5 3
+	=09
+		children[
+			Shape {
+				appearance Appearance{
+				material Material{}
+				texture ImageTexture{
+					url "fenster.jpg"
+					}
+				 }
+				 geometry Box {size .25 .6 .25}
+			 }
+		 ]
+	 }=09
+ Transform {
+			translation -2 0 0
+				children[
+					USE Fenster
+					]
+			 }
+
+
+	=20
+DEF Dach Transform { 										#Bahnhof Dach
+	   translation    0 1 2=20
+            rotation 1 0 0 -1.5708
+            scale 12.52 6 6
+
+            children [
+
+                Shape {
+
+                    geometry IndexedFaceSet {
+
+                        coord Coordinate {
+
+                            point [
+                                -0.2 -0.2  0.0,
+                                 0.2 -0.2  0.0,
+                                 0.2  0.0  0.2,
+                                -0.2  0.0  0.2,
+                                -0.2  0.2  0.0,
+                                 0.2  0.2  0.0
+                             ]
+                        }
+
+                        coordIndex [
+
+                            0 1 2 -1
+                            3 4 0 -1
+                            3 2 5 -1
+                            4 3 5 -1
+                            5 1 0 -1
+                            2 1 5 -1
+                            2 3 0 -1
+                            5 0 4 -1
+                         ]
+                    }=20
+
+                    appearance Appearance {
+                        material Material {
+
+                            emissiveColor 0.542 0 0.079
+                            diffuseColor 0 0 0
+                             }
+                    }=20
+                }=20
+            ]
+       }															#Barrier
+DEF	BarrierAll Transform {
+translation 0.4 0 1.4
+	children [
+	DEF	Barrier Transform{
+	=09
+		children[
+			Transform{
+			 translation 1 .2 -3
+			=09
+				children[
+				=09
+					Shape {
+						appearance Appearance{
+							texture ImageTexture{
+							 url "brown.jpg"
+							 }
+							material Material{
+							transparency 0
+							}
+					    	}
+				=09
+						geometry Box { size .1 .4 .1 }
+						}
+					]
+				}
+				DEF	Animatie Transform {
+					children [
+				Transform{
+				translation 1  .34  -2.94
+				rotation 1 0 0 4.7=20
+			=09
+			=09
+				children[
+				=09
+					Shape {
+						appearance Appearance{
+							texture ImageTexture{
+							 url "metal.jpg"
+							 }
+							material Material{
+							transparency 0
+							}
+					    	}
+				=09
+						geometry Cylinder {=20
+							radius .04
+						height .03}
+						}
+					]}
+				 Transform{
+				translation 1  .34  -2.93
+				rotation 1 0 0 4.7=20
+			=09
+			=09
+				children[
+				=09
+					Shape {
+						appearance Appearance{
+							texture ImageTexture{
+							 url "button1.jpg"
+							 }
+							material Material{
+							transparency 0
+							}
+					    	}
+				=09
+						geometry Cylinder {=20
+							radius .03
+						height .03}
+						}
+					]}
+				 Transform{
+				translation 1.03 .34  -2.932
+				rotation 1 0 0 4.7=20
+			=09
+			=09
+				children[
+				=09
+					Shape {
+						appearance Appearance{
+							texture ImageTexture{
+							 url "metal.jpg"
+							 }
+							material Material{
+							transparency 0
+							}
+					    	}
+				=09
+						geometry Box { size 0.04 0.032 0.036}
+						}
+					]}
+					 Transform{
+				translation 1.45 .34  -2.932
+				rotation 1 0 0 4.7=20
+			=09
+			=09
+				children[
+				=09
+					Shape {
+						appearance Appearance{
+							texture ImageTexture{
+							 url "band.jpg"
+							 }
+							material Material{
+							transparency 0
+							}
+					    	}
+				=09
+							geometry Box { size 0.8 0.025 0.03}
+						}
+					]}
+				  ]
+		=09
+				}		=09
+		=09
+			]
+			=20
+		}=20
+	]
+}
+
+DEF BarrierAll2 Transform{
+translation 4 0 -4.25
+rotation 0 1 0 3.14
+children[USE BarrierAll]}
+DEF pi PositionInterpolator {
+
+key [0.0 0.3 0.7 1.0]
+keyValue [
+0     0     0
+1.34 -0.73  0
+1.34 -0.73  0
+0     0     0
+				]
+}
+
+DEF oi OrientationInterpolator {
+key [ 0.0 0.3 0.7 1.0 ]
+keyValue [=20
+ 0 0 1  0,
+ 0 0 1  1.57,
+ 0 0 1 	1.57,
+ 0 0 1  0      ]
+}
+
+DEF ts TimeSensor {
+cycleInterval 3
+loop TRUE
+}
+
+ROUTE ts.fraction_changed TO oi.set_fraction
+ROUTE ts.fraction_changed TO pi.set_fraction
+ROUTE oi.value_changed TO Animatie.rotation=09
+ROUTE pi.value_changed TO Animatie.set_translation=09
+=09
+#
+                                                              					=09
+
+DEF EisenBahn Transform {									#EisenBahn
+		translation 0 0.005 3.7
+	=09
+		children[
+			Shape {
+				appearance Appearance{
+					material Material {
+					diffuseColor .5 .5 .5
+					transparency 0}
+				=09
+			 	 }
+			    geometry Box { size 10 0.01 0.5 }
+				=20
+			 }
+		 ]=09
+	 }	 =09
+
+
+DEF Eisenbahn2 Transform {
+		translation 0 0.005 -6
+	=09
+		children[
+			USE EisenBahn]
+		 }
+DEF Eisenbahnkurve1 Transform {    #Eisen
+		translation 5 0.005 .7
+	=09
+		children[
+			Shape {
+				appearance Appearance{
+					material Material {
+					diffuseColor .5 .5 .5
+					transparency 0}
+				=09
+			 	 }
+			    geometry Cylinder { =20
+				  radius 3.25
+				  height 0.01}
+				=20
+			 }
+		 ]=09
+	 }=09
+DEF Eisenbahnkurve2 Transform {    # Grass
+		translation 5 0.006 .7
+	=09
+		children[
+			Shape {
+				appearance Appearance{
+					material Material {}
+					texture ImageTexture{
+						url "grasstexture.jpg"
+					 }
+				=09
+			 	 }
+			    geometry Cylinder { =20
+				  radius 2.75
+				  height 0.01}
+				=20
+			 }
+	=09
+		 ]=09
+	 }
+
+DEF Eisenbahnkurve Transform {
+			translation -10 0 0	=20
+			children[
+				USE Eisenbahnkurve1]
+		 }
+DEF Eisenbahnkurve Transform {
+			translation -10 0 0	=20
+			children[
+				USE Eisenbahnkurve2]
+		 }
+DEF Grund2 Transform { 									=09
+		translation 0 0.011 .7
+	=09
+		children[
+			Shape {
+				appearance Appearance{
+					material Material {}
+					texture ImageTexture{
+						url "grasstexture.jpg"
+					}
+			 	 }
+			    geometry Box { size 10 0 5.5 }
+				=20
+			 }
+		 ]=09
+	 }	 		=20
+DEF Tunnel Transform{											#Tunnel
+		children[
+			Transform{
+			translation -3 0.75 -1.5
+				children[
+					Shape {
+						appearance Appearance{
+							material Material{
+							diffuseColor .5 .5 .5
+							transparency 0}
+						 }
+					geometry Box { size 3 1.5 0.15}
+					 }
+				 ]
+			 }
+			=20
+			 Transform{
+			 translation -3 0.75 -3
+				children[
+					Shape {
+						appearance Appearance{
+							material Material{
+							diffuseColor .5 .5 .5
+							transparency 0}
+						 }
+					geometry Box { size 3 1.5 0.15}
+					 }
+				 ]
+			 }
+			=20
+			 Transform{
+			 translation -3 1.58 -2.885
+			 rotation 1 0 0 .785
+				children[
+					Shape {
+						appearance Appearance{
+							material Material{
+							diffuseColor .5 .5 .5
+							transparency 0}
+						 }
+					geometry Box { size 3 0.4 0.15}
+					 }
+				 ]
+			 }
+			=20
+			 Transform{
+			 translation -3 1.58 -1.615
+			 rotation 1 0 0 -.785
+				children[
+					Shape {
+						appearance Appearance{
+							material Material{
+							diffuseColor .5 .5 .5
+							transparency 0}
+						 }
+					geometry Box { size 3 0.4 0.15}
+					 }
+				 ]
+			 }
+			=20
+			 Transform{
+			 translation -3 1.7 -2.25
+			 rotation 1 0 0 1.57
+				children[
+					Shape {
+						appearance Appearance{
+							material Material{
+							diffuseColor .5 .5 .5
+							transparency 0}
+						 }
+					geometry Box { size 3 1.1 0.15}
+					 }
+				 ]
+			 }
+		 ]
+}
+DEF Lokomotive Transform {								#Lokomotive
+	=09
+		children[
+		 Viewpoint {=20
+            description "Lokomotive forne"
+            position -0.74 1 -2.3
+            orientation 0 1 0 -1.8
+         }=20
+		 Viewpoint {=20
+            description "Lokomotive hinten"
+            position -0.74 1 -2.3
+            orientation 0 1 0 -4.8
+         }=20
+		 SpotLight {
+			on TRUE
+			intensity 1000000000
+			ambientIntensity 5
+			color 1 2 1
+			location 0 .27 -0.01
+			direction 1 0 0=20
+			attenuation 0 1 0
+			radius 10
+			cutOffAngle 0.78
+			beamWidth 1.5
+		 }
+		 SpotLight {
+			on TRUE
+			intensity 1000000000
+			ambientIntensity 5
+			color 1 2 1
+			location 0 .27 .01
+			direction 1 0 0=20
+			attenuation 0 1 0
+			radius 10
+			cutOffAngle 0.78
+			beamWidth 1.5
+		 }
+			Transform { #Koerper Zylinder
+		=09
+			translation 0 0.4 -2.3
+			rotation 0 0 5 4.715
+			=20
+			 children[
+			=09
+				Shape {
+					appearance Appearance{
+						material Material{
+						diffuseColor 0 .191 .255
+						transparency 0}
+				=09
+					 }
+					geometry Cylinder{
+					radius 0.2
+					height 1.5
+					}
+				 }
+			 ]
+		  }
+		=20
+			 Transform { #KoerperBox forne
+			=20
+			 translation -0.245 0.27 -2.3
+			 rotation 0 0 5 4.715
+			=20
+			 children[=20
+			=20
+				Shape {=20
+					appearance Appearance{
+						material Material{
+						diffuseColor 0.8 0.8 0.8
+						transparency 0}
+			=09
+					 }
+					geometry Box { size .2 2.05 .4}
+				=20
+				 }
+			 ]
+			=20
+		 }
+			  Transform { #KoerperBox hinten
+			=20
+			 translation -0.74 0.52 -2.3
+			 rotation 0 0 5 4.715
+			=20
+			 children[=20
+			=20
+				Shape {=20
+					appearance Appearance{
+						material Material{
+						diffuseColor 0 .191 .255
+						transparency 0}
+			=09
+					 }
+					geometry Box { size 0.7 1 .399}
+				=20
+				 }
+			 ]
+			=20
+		 }
+			  Transform { #Koerper Schornstein
+		=09
+			 translation 0.5 .67 -2.3
+			 rotation 0 1 0 1
+			=20
+			 children[
+			=09
+				Shape {
+					appearance Appearance{
+						material Material{
+						diffuseColor 0.128 .128 .128
+						transparency 0}
+				=09
+					 }
+					geometry Cylinder{
+					radius 0.05
+					height 0.2
+					}
+				 }
+			 ]
+		 }
+		=20
+			 Transform { # Zylinder forne
+			=20
+			 translation 0.77 0.37 -2.3
+			 scale 0.85 1.23 1.05
+			=20
+			 children [
+			=20
+				Shape {
+					appearance Appearance {
+						material Material {
+						diffuseColor .128 .128 .128
+						transparency 0 }
+					=09
+					 }
+					=20
+					 geometry Sphere { =09
+					 radius 0.185=09
+					 }
+				 }
+			 ]
+		 }
+			 Transform { # Rad links Mitte
+			=20
+			 translation -0.245 0.15 -2.5
+			 rotation 1 0 0 1.57
+			=20
+			 children[=20
+			=20
+				Shape {=20
+					appearance Appearance{
+						material Material{
+						diffuseColor 0 0 0
+						transparency 0}
+			=09
+					 }
+					geometry Cylinder{
+					radius 0.15
+					height 0.05
+					}
+				=20
+				 }	=20
+			 ]
+	=09
+		 } =09
+			  Transform { # Rad rechts Mitte
+			=20
+			 translation -0.245 0.15 -2.1
+			 rotation 1 0 0 1.57
+			=20
+			 children[=20
+			=20
+				Shape {=20
+					appearance Appearance{
+						material Material{
+						diffuseColor 0 0 0
+						transparency 0}
+			=09
+					 }
+					geometry Cylinder{
+					radius 0.15
+					height 0.05
+					}
+				=20
+				 }	=20
+			 ]
+	=09
+		 }=20
+			  Transform { # Rad rechts forne
+			=20
+			 translation .5 0.15 -2.1
+			 rotation 1 0 0 1.57
+			=20
+			 children[=20
+			=20
+				Shape {=20
+					appearance Appearance{
+						material Material{
+						diffuseColor 0 0 0
+						transparency 0}
+			=09
+					 }
+					geometry Cylinder{
+					radius 0.15
+					height 0.05
+					}
+				=20
+				 }	=20
+			 ]
+	=09
+		 }=20
+			  Transform { # Rad links forne
+			=20
+			 translation .5 0.15 -2.5
+			 rotation 1 0 0 1.57
+			=20
+			 children[=20
+			=20
+				Shape {=20
+					appearance Appearance{
+						material Material{
+						diffuseColor 0 0 0
+						transparency 0}
+			=09
+					 }
+					geometry Cylinder{
+					radius 0.15
+					height 0.05
+					}
+				=20
+				 }	=20
+			 ]
+	=09
+		 }
+			  Transform { # Rad links hinten
+			=20
+			 translation -1 0.15 -2.5
+			 rotation 1 0 0 1.57
+			=20
+			 children[=20
+			=20
+				Shape {=20
+					appearance Appearance{
+						material Material{
+						diffuseColor 0 0 0
+						transparency 0}
+			=09
+					 }
+					geometry Cylinder{
+					radius 0.15
+					height 0.05
+					}
+				=20
+				 }	=20
+			 ]
+	=09
+		 }=20
+			  Transform { # Rad rechts hinten
+			=20
+			 translation -1 0.15 -2.1
+			 rotation 1 0 0 1.57
+			=20
+			 children[=20
+			=20
+				Shape {=20
+					appearance Appearance{
+						material Material{
+						diffuseColor 0 0 0
+						transparency 0}
+			=09
+					 }
+					geometry Cylinder{
+					radius 0.15
+					height 0.05
+					}
+				=20
+				 }	=20
+			 ]
+	=09
+		 } =09
+	 ]	=20
+		=20
+}	=09
+
+
+DEF Clock TimeSensor {
+	cycleInterval 15
+	loop TRUE
+ }		=20
+DEF LokomotivePath PositionInterpolator {
+		key [
+		 0,.05, .1, 0.2, .25,  .3,.35, .4, .45, .5,.55, .6, .65, .7, .75 .8, =
+.85, .9, .95 , 1=20
+		=20
+		 ]
+		keyValue [
+		   -4.5  0     0
+			4.5  0     0
+			5.55  0    .2
+			5.55  0    .5
+			5.55  0  1.37
+			5.35 0  1.39
+			5    0  1.39
+			4.5  0  1.39
+		   -4.5  0  1.39
+			-5.60   0  1.39
+			-5.60 0  1.39
+			-5.60 0  1.39
+			-5.60 0  .045
+			-5.5 0   .035
+		 ]
+	 }
+
+DEF LokomotivePath2 OrientationInterpolator {
+		key [ 0,.05, .1, 0.2, .25,  .3,.35, .4, .45, .5,.55, .6, .65, .7, .75 =
+.8, .85, .9, .95,  1 ]
+		keyValue [  0 1 0 0
+					0 1 0 0
+					0 1 0 -1.57
+					0 1 0 -1.57
+					0 1 0 -1.57
+					0 1 0 -3.14
+					0 1 0 -3.14
+					0 1 0 -3.14
+					0 1 0 -3.14
+					0 1 0 1.57
+					0 1 0 1.57
+					0 1 0 1.57
+					0 1 0 0
+					0 1 0 0 ]
+}
+ROUTE Clock.fraction_changed TO LokomotivePath.set_fraction
+ROUTE Clock.fraction_changed TO LokomotivePath2.set_fraction
+ROUTE LokomotivePath.value_changed TO Lokomotive.set_translation
+ROUTE LokomotivePath2.value_changed TO Lokomotive.rotation
+
+
+DEF    Schnemann Transform    {
+    children [
+        DEF    GrunKopf Transform {
+                                translation    2 .2 -1.2
+                                scale .2 .2 .2
+                                rotation 0 1 0 3.14159
+
+                                children [
+                                    Schneemann {
+                                        farbe 0 1 0
+                                     }
+                                 ]
+                             }
+        DEF WeissKopf Transform {
+                                translation    0 .2 3.2
+                                scale .2 .2 .2
+                                rotation 0 1 0 0
+                                children [
+                                    Schneemann {
+                                        farbe 1 1 1
+                                     }
+                                 ]
+                             }
+                            DEF    BlauKopf Transform {
+                                                    translation -8 .2 =
+2.53
+                                                    scale .2 .2 .2
+                                                    rotation  0 1 0 =
+3.14159
+                                                    children [
+                                                        Schneemann {
+                                                            farbe 0 0 =
+.255
+                                                         }
+                                                     ]
+                                                 }
+
+      ]
+  }
+
+	     =20
+DEF Clock2 TimeSensor {
+	cycleInterval 6
+	loop TRUE
+ }		=20
+DEF GrunKopfPos PositionInterpolator {
+		key [
+		.25 .5 .75 1
+		=20
+		 ]
+		keyValue [
+		  2 .2 -1.2
+		   2 .2 -3.5
+		 ]
+	 }=20
+
+
+ROUTE Clock2.fraction_changed TO GrunKopfPos.set_fraction
+ROUTE GrunKopfPos.value_changed TO GrunKopf.set_translation=20
+		=20
+		=20
+	 <=00/=00B=00O=00D=00Y=00>=00<=00/=00H=00T=00M=00L=00>=00=0D=00=0A=
+=00

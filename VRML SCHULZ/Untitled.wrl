@@ -1,0 +1,234 @@
+#VRML V2.0 utf8
+DEF	BigMAMA Transform { children [
+DEF Lokomotive Transform {									# Lokomotive
+		
+		children[
+			Transform { #Koerper Zylinder
+			
+			translation 0 0.4 -2.3
+			rotation 0 0 5 4.715
+			 
+			 children[
+				
+				Shape {
+					appearance Appearance{
+						material Material{
+						diffuseColor 0.8 0.8 0.8
+						transparency 0}
+					
+					 }
+					geometry Cylinder{
+					radius 0.2
+					height 1.5
+					}
+				 }
+			 ]
+		  }
+		 
+			 Transform { 									#KoerperBox forne
+			 
+			 translation -.24 0.27 -2.3
+			 rotation 0 0 5 4.715
+			 
+			 children[ 
+			 
+				Shape { 
+					appearance Appearance{
+						material Material{
+						diffuseColor 0.8 0.8 0.8
+						transparency 0}
+				
+					 }
+					geometry Box { size .2 2 .4}
+				 
+				 }
+			 ]
+			 
+		 }
+		 
+			  Transform { 									#KoerperBox Kugel forne
+			 
+			 translation .5 0.4 -2.3
+			 scale 1.5 .4 .4
+			 
+			 children[ 
+			 
+				Shape { 
+					appearance Appearance{
+						material Material{
+						diffuseColor 0.8 0.8 0.8
+						transparency 0}
+				
+					 }
+					geometry Sphere{ 
+					 radius .5
+					 
+					 }
+				 }
+			 ]
+			 
+		 }
+			  Transform { 									#KoerperBox hinten
+			 
+			 translation -0.74 0.52 -2.3
+			 rotation 0 0 5 4.715
+			 
+			 children[ 
+			 
+				Shape { 
+					appearance Appearance{
+						material Material{
+						diffuseColor 0.2 0 0
+						transparency 0}
+				
+					 }
+					geometry Box { size 0.7 1 .399}
+				 
+				 }
+			 ]
+			 
+		 }
+			  Transform { 										#Koerper Schornstein
+			
+			 translation 0.5 .67 -2.3
+			 rotation 0 1 0 1
+			 
+			 children[
+				
+				Shape {
+					appearance Appearance{
+						material Material{
+						diffuseColor 0.128 .128 .128
+						transparency 0}
+					
+					 }
+					geometry Cylinder{
+					radius 0.05
+					height 0.2
+					}
+				 }
+			 ]
+		 }
+		 
+			  Transform { 										#Koerper Schornstein
+			
+			 translation 0.5 .67 -2.3
+			 rotation 0 1 0 1
+			 
+			 children[
+				
+				Shape {
+					appearance Appearance{
+						material Material{
+						diffuseColor 0.128 .128 .128
+						transparency 0}
+					
+					 }
+					geometry Cone{
+					bottomRadius 0.08
+					height 0.2
+					}
+				 }
+			 ]
+		 }
+			  Transform { 										#Koerper Schornstein
+			
+			 translation 0.5 .7 -2.3
+			 rotation 0 0 1 3.14
+			 children[
+				
+				Shape {
+					appearance Appearance{
+						material Material{
+						diffuseColor 0.128 .128 .128
+						transparency 0}
+					
+					 }
+					geometry Cone{
+					bottomRadius 0.08
+					height 0.2
+					}
+				 }
+			 ]
+		 }
+			 DEF Rad Transform { 									# Rad links Mitte
+			 
+			 translation -0.245 0.15 -2.5
+			 rotation 1 0 0 1.57
+			 
+			 children[ 
+			 
+				Shape { 
+					appearance Appearance{
+						material Material{
+						diffuseColor 0.205 0.133 0.063
+						transparency 0}
+				
+					 }
+					geometry Cylinder{
+					radius 0.15
+					height 0.1
+					}
+				 
+				 }	 
+			 ]
+		
+		 } 	
+			  Transform {											# Rad rechts Mitte
+				translation 0 0 .4
+				children [
+					USE Rad
+				 ]
+			
+			 }	
+			 
+			  Transform {											# Rad rechts forne
+				translation 0.75 0 .4
+				children [
+					USE Rad
+				 ]
+			
+			 }	
+		
+			  Transform {											# Rad links forne
+				translation 0.75 0 0
+				children [
+					USE Rad
+				 ]
+			
+			 }	
+			  
+			  Transform {											# Rad links hinten
+				translation -0.75 0 0
+				children [
+					USE Rad
+				 ]
+			
+			 }	
+			 
+			 Transform {											# Rad rechts hinten
+				translation -0.75 0 0.4
+				children [
+					USE Rad
+				 ]
+			
+			 }	
+			 
+	 ]	 
+		 
+}
+DEF oi OrientationInterpolator {
+key [ 0 4]
+keyValue [ 0 0 1 0,
+0 0 1 3.14, # rotate right
+0 0 1 3.14] # rotate down
+}
+DEF ts TimeSensor {
+cycleInterval 1
+loop TRUE
+}
+]
+}
+ROUTE ts.fraction_changed TO oi.set_fraction
+ROUTE oi.value_changed TO BigMAMA.rotation
+]}

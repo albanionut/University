@@ -1,0 +1,23 @@
+#VRML V2.0 utf8
+
+DEF T1 Transform {
+	translation 12 2 -1
+	rotation 0 0 1 -1.57
+	center 2 1 2
+	children[
+		DEF T2 Transform {
+		scale 0.5 2 1
+		translation 1 -1 0
+					children[
+						DEF S1 Shape {
+						geometry Sphere{} }
+			]} # T2
+
+DEF S2 Shape{
+geometry Cone{ height 6 } }
+]} # T1
+DEF	T3 Transform {
+	translation	16 5 -1
+	children [
+		DEF	S3  Shape {
+			geometry Sphere{}}]}
