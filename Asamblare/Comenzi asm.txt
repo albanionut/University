@@ -1,0 +1,12 @@
+Pagina 15   subtitlul 4.3.
+
+
+
+mount g: d:\work\asamblare -- calea catre fisier
+g: -- muti driverul pe g
+tasm <denumire fisier>.asm
+tlink <denumire fisier>.obj--- daca nu  avem erori
+<denumire fisier>.exe
+td <denumire fisier>.exe---intri in debugger
+
+
