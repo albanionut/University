@@ -1,0 +1,20 @@
+Ex. 1
+
+deff('dy=f(x,y)',['dy=y'])
+x=0:0.1:1;
+y=ode(1,0,x,f);
+plot2d(x,y)
+
+Ex. 2
+
+deff('q=f(x,p)',['y1=p(1)','y2=p(2)','q(1)=y1*y2','q(2)=-1/(x*y1)'])
+x=1:0.1:2;
+y=ode([1;1],1,x,f);
+xx=[x',x'];
+plot2d(xx,y')
+
+Ex. 3
+
+exec('e:\mk\scilab\labnum\EcDif\col1.sci',-1)
+[x,w]=col1();
+plot2d(x',w)

@@ -1,0 +1,19 @@
+function [l,error]=lim(tol,nmi)
+  v=sqrt(2);
+  cont=%t;
+  ni=1;
+  while(cont)
+    ni=ni+1;
+    l=sqrt(v+2);
+    d=abs(v-l);
+    v=l;
+    if(d<tol)&(ni>nmi)
+      cont=%f
+    end
+  end
+  if(d<tol)
+    error=0;
+  else
+    error=1;
+  end
+endfunction
