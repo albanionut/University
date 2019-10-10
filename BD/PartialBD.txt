@@ -1,0 +1,98 @@
+1.Care dintre urmatoarele afirmatii este despre sistemele de fisiere?
+#toate
+
+2.Exista anumite motive pentru care arhtectura bazelor de date distribuite nu este implementata pesste tot si anume 
+#toate
+
+3.Care dintre urmatoarele facilitati nu este definita de teorema CAP ?
+#Atomaritate
+
+4.O arhitectura de baze de date distribuite are mai multe avantaje :
+#toate
+5.Ce model nu face parte dintre principalele modele memorate ale bazelor de date NoSQL?
+#Enitity-Relation
+
+6.In NLP,coreference apare atunci cand :
+# Doua sau mai multe cuvinte dintr-un text se refera la acelasi obiect/persoana
+
+7.Procesarea limbajului natural (NLP- Natural Language Processing) este un domeniu derivat din :
+#inteligentei artificiale
+#informatica
+#lingvistica computationala specializata pe intercatiunile dintre calculatoare si limbaje umane
+
+8.Care sunt operatii NoSQL?
+#toate
+
+9.Transparenta locatiei = utilizatorul nu este constient de distribuit datelor in sistem, pentru 
+#toate
+
+10. Care dintre urmatoarele arfirmatii sunt adevarate relativ la fisierul pom.xml
+
+# Toate
+
+
+
+11. Modelul de date contine
+
+# descrierea datelor 
+
+# definirea relatiilor dintre date
+
+# constrangeri impuse datelor
+
+
+
+12. Rularea tranzactiilor in doua faze semnifica:
+
+# rularea confomra cu protocolul de commit in doua faze (2PC)
+
+
+
+13.  Realizarea unui model de date logic este specific:
+
+# Proiectarii logice
+
+
+14. Care sunt conditii de corectitudine ale fragmentarii?
+
+# reconstructie
+
+# completitudine
+
+# disjunctie
+
+
+
+15. Care dintre urmatoarele nu este o faza din ciclul de viata al proceselor gestionate cu Maven?
+
+# run
+
+
+
+16. Care este echivalentul JPA pentru fisierul hibernate cfg.xml?
+
+# persistence.xml
+
+
+
+17. Ce afirmatie este devarata despre comanda 'mvn clean' ?
+
+# sterge artefacctele create de rutarile precedente
+
+
+
+18. Identificati tipuri de fragmentare
+
+# verticala
+# orizontala
+
+# mixta
+
+
+
+19. Ce sunt hashmapu-urile?
+
+# structuri ce stocheaza datele ptintr-o cheie unica folosita pentru a regasi datele
+
+20. Identificati motive valide pentru fragmentarea relatiilor:
+#toate

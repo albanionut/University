@@ -1,0 +1,55 @@
+
+1. SELECT * FROM comanda WHERE cost BETWEEN 170 AND 250;
+2. SELECT client_id , nume FROM client WHERE nume LIKE '%n%';           contin n 
+3.SELECT client_id FROM client WHERE nume LIKE '_a%';                   contin a doua litera a
+4.SELECT COUNT(*) FROM comanda WHERE metoda_plata = 'card';             numara cati au platit cu cardul
+5.SELECT SUM(cost) FROM comanda;                                        cat costa toate comenzile
+
+
+1.SELECT produs.nume as produs , aprovizionare.furnizor_id as furnizor 
+FROM produs INNER JOIN aprovizionare 
+ON produs.furnizor_id = aprovizionare.furnizor_id 
+WHERE cost<2000;
+
+2.SELECT client.client_id ,client.nume, comanda.comanda_id 
+FROM client 
+INNER JOIN comanda 
+ON client.client_id=comanda.client_id;
+
+3.SELECT client.client_id ,client.nume, comanda.comanda_id, curier.nume 
+FROM client INNER JOIN comanda 
+ON client.client_id=comanda.client_id 
+INNER JOIN curier ON comanda.curier_id=curier.curier.id;
+
+4.SELECT producator_id FROM producator 
+WHERE furnizor_id =(SELECT furnizor_id FROM Furnizor WHERE adresa = 'Strada Florilor');
+
+5.SELECT * FROM aprovizionare WHERE produs_id = (SELECT produs_id FROM produs WHERE nume='manusi');
+
+
+
+1.CREATE VIEW view1 AS 
+SELECT produs.nume as produs , aprovizionare.furnizor_id as furnizor 
+FROM produs INNER JOIN aprovizionare 
+ON produs.furnizor_id = aprovizionare.furnizor_id 
+WHERE cost<2000;
+
+2.CREATE VIEW view2 AS 
+SELECT client.client_id ,client.nume, comanda.comanda_id 
+FROM client 
+INNER JOIN comanda 
+ON client.client_id=comanda.client_id;
+
+3.CREATE VIEW view3 AS
+SELECT client.client_id ,client.nume, comanda.comanda_id, curier.nume 
+FROM client INNER JOIN comanda 
+ON client.client_id=comanda.client_id 
+INNER JOIN curier ON comanda.curier_id=curier.curier.id;
+
+4.CREATE VIEW view4 AS
+SELECT producator_id FROM producator 
+WHERE furnizor_id =(SELECT furnizor_id FROM Furnizor WHERE adresa = 'Strada Florilor');
+
+5.CREATE VIEW view5 AS
+SELECT * FROM aprovizionare 
+WHERE produs_id = (SELECT produs_id FROM produs WHERE nume='manusi');
