@@ -1,0 +1,80 @@
+Tema 1 platforma Aldea  - Tutoveanu Andrei Catalin
+
+1.In limbajul Java, C++, C# pentru a retine un cuvant se foloseste tipul de data "string"
+Care este echivalentul acestuia in limbaj SQL?
+a)VAR CHAR
+b)String
+c)BIT CHAR
+d)nu exista
+	Raspuns corect: a)
+
+2)Pentru a stabili o conexiune la JDBC care este primul pas de facut?
+a)Inregistrarea unui Driver JDBC
+b)Crearea conexiunii 
+c)nici o varianta nu este corecta
+d)Importarea pachetelor JDBC
+	Raspuns corect: a)
+
+3.Ce este SQLException?
+a)O clasa care se ocupa de crearea de nume de exceptii
+b)O subclasa a clasei Exception specifica Java
+c)O clasa a limbajului SQL
+d)O clasa care se ocupa de tratarea oricaror erori a unei baze de date
+	Raspuns corect: d)
+
+4.Care dintre urmatoarele comenzi SQL sterge o tabela numita "Employees"?
+a)SQL> DROP TABLE Employees;
+b)SQL> DELETE TABLE Employees
+c)SQL> ALTER TABLE employees;
+d)SQL> DROP TABLE Employee;
+	Raspuns corect: a)
+
+5.Ce este SQL ( Structured Query Language)?
+a)Un sub-limbaj al limbajului Java
+b)Un limbaj standardizat pentru bazele de date
+c)Un limbaj provenit derivat din limbile indo-europene
+d)Un tip de limbaj de programare care nu este specifific pentru lucrul cu bazele de date
+	Raspuns corect: b)
+
+6.Se da urmatoarea secventa de cod:
+SQL> CREATE TABLE Employees
+(
+...............
+);
+
+
+7.Intr-o baza de date Employees avem campul "id" care vrem sa fie cheie primara, prin ce comanda SQL putem face acest lucru?
+a)Primary id
+b)PRIMARY KEY ( id )
+c)KEY ( id )
+d)nici una din variantele de mai sus nu este corecta
+	Raspuns corect: b) 
+
+8.Avem o baza de date Employees ce contine un camp "id", cum stergem inregistrarea cu id-ul 99?
+a)SQL> DELETE FROM Employees (99);
+b)SQL> DELETE FROM Employees AT id=99;
+c)SQL> DELETE FROM Employees WHERE id=99;
+d)SQL> DELETE AT id=99;
+	Raspuns corect: c)
+
+9.Se da o baza de date Employees ce contine campurile: id(int), varsta(int), nume(string), prenume(string).
+Care din urmatoarele comenzi SQL sunt corecte:
+a)INSERT INTO Employees VALUES (100,18,'Zara','Ali');
+b)INSERT AT Employees VALUES (100,12,"Zara","Ali");
+c)INSERT VALUES (100,18,'Zara,'Ali') IN EMPLOYEES
+d)INSERT (100,19,'Zara','Ali') IN Employees
+	Raspuns corect: a) 
+
+10)Ce este JDBC?
+a)Este doar o abreviere fara vreun inteles
+b)Se refera la o conexiune la o baza de date, in limbajul Python 
+c)Java Database Binary Connectivity
+d)Java Database Connectivity
+	Raspuns corect: c)
+
+11)Cu ce trebuie completat spatiul cu puncte pentru a adauga un camp "id" de tip intreg care sa nu fie null?
+a)id INT
+b)INT id
+c)Integer id
+d)id INT NOT NULL
+	Raspuns corect: d)

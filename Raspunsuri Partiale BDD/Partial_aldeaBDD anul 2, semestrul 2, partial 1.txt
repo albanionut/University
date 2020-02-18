@@ -1,0 +1,1131 @@
+﻿ALDEA
+
+1)Un tabel de tip view (o vedere) este un tabel virtual care:
+a. este memorat fizic in fisiere 
+b. are valorile atributelor memorate de mai multe ori 
+c. nu este intotdeauna actualizat 
+d. nu este memorat fizic in fisiere si reperezinta o selectie a datelor memorate in unul sau mai multe tabele de baza X
+
+Raspuns: d
+
+
+2)Structurile auxiliare ale nivelui intern pot fi
+Alegeți una sau mai multe opțiuni:
+a. directoare 
+b. tabele de dispensie bine :D :3 <3
+c. indecsi 
+d. pointeri 
+
+Raspuns: TOATE
+
+3)La translatarea relatiilor in tabele un atribut reprezinta:
+Alegeți o opțiune:
+a. o inregistrare dintr-un tabel 
+b. un tabel unidimensional 
+c. un domeniu de valori 
+d. o coloana a unui tabel 
+
+Raspuns: d
+
+
+4)Cate chei poate avea o relatie?
+Alegeți o opțiune:
+a. una sau mai multe candidat 
+b. una sau mai multe chei candidat, o cheie primara, nicio cheie, una sau mai multe chei secundare 
+c. una primara, una straina si una secundara (alternanta) 
+d. mai multe candidat, una primara si cel putin o cheie straina 
+
+Raspuns: b
+
+
+5)Pentru asocierea sot-sotie avand cardinalitatea 1:1 care afirmatie este adevarata?
+
+Alegeți o opțiune:
+a. un sot poate avea mai multe sotii 
+b. o sotie este casatorita cu un singur sot 
+c. o sotie nu poate avea sot 
+d. o sotie poate avea mai multi soti 
+
+Raspuns: b
+
+
+
+6)Ce rezultat se obtine in urma rularii urmatoarei interogare SQL?
+SELECT NrFactura
+FROM CLIENTI
+INNER JOIN FACTURIEMISE ON CLIENTI.CodClient=FACTURIEMISE.Codclient
+WHERE ValTot IN (50, 100);
+Alegeți o opțiune:
+a. facturile emise cu valoare intre 50 si 100 (RON), exclusiv marginile intervalului 
+b. numai facturile emise cu valoare fie mai mica de 50, fie mai mare de 100 (RON) 
+c. facturile emise cu valoare Intre 50 si 100 (RON), inclusiv aceste valori 
+d. facturile emise cu valoarea de 50 sau 100 (RON) 
+
+Raspuns: d
+
+
+
+7)Modelul de date contine
+Alegeți una sau mai multe opțiuni:
+a. constrangeri impuse datelor 
+b. tranzactii ce realizeaza citiri si scrieri 
+c. definirea relatiilor dintre date 
+d. descrierea datelor 
+
+Raspuns: a c d
+
+
+
+8)Într-o bază de date putem avea:
+Alegeți o opțiune:
+a. Reguli redundante 
+b. Restricții de tip CHAR 
+c. Restricții referențiale 
+d. Restricții de tip integer 
+
+Raspuns: c
+
+
+
+9)O valoare nulă:
+Alegeți o opțiune:
+a. Este un șir vid 
+b. Este un spațiu liber 
+c. Este o valoare specială care nu e egală cu nimic altceva 
+d. Este o valoare de tip autonumber 
+
+Raspuns: c
+
+
+
+
+10)Marcati un obiectiv fals al bazelor de date:
+Alegeți o opțiune:
+a. Independenta intre date si program 
+b. Centralizare datelor (eliminare redundanta, unicitate inregistrari, control date) 
+c. Confidentialitate date 
+d. Ocuparea spatiului liber pe sistemul de fisiere 
+
+Raspuns: c
+
+
+
+11)Identificati motive valide pentru fragmentarea relatiilor.
+Alegeți una sau mai multe opțiuni:
+a. securitatea date: Securizarea datelor care nu sunt necesare pentru aplicatiile locale, acestea nu sunt stocate si, in consecinta, nu sunt disponibile pentru utilizatorii neautorizati 
+b. uzanta: Aplicatiile lucreaza mai bine cu vederi , decat cu relatii intregi. Prin urmare, pentru distribuirea datelor pare mai adecvat sa se lucreza cu subseturi ale relatiilor ca unitate de distribuire  
+c. eficienta: Datele sunt stocate in apropierea locului unde sunt cel mai frecvent utilizate, iar datele care nu sunt necesare pentru aplicatiile locale nu sunt stocate 
+d. paralelismul: Cu fragmentele ca unitate de distribuire, tranzactie poate fi  impartita in mai multe subinterogari, care opereaza asupra fragmentelor. Aceasta are ca efect marirea concurentei - paralelism – din sistem, permitand executarea in siguranta a tranzactiilor care pot fi executate in paralel 
+
+Raspuns: a b c d
+
+
+
+12)Ce intra in componenta unui model de date?
+Alegeți o opțiune:
+a. un set de reguli de integritate 
+b. o componenta de manipulare 
+c. o parte structurala, una de manipulare si un set de reguli de integritate 
+d. o componenta structurala 
+
+
+Raspuns: c
+
+
+13)Care dintre urmatoarele elemente este inclusa printre componentele unei baze de date?
+Alegeți una sau mai multe opțiuni:
+a. tabele 
+b. restrictii 
+c. relatii 
+d. diagrame entitate-relatie 
+
+Raspuns: a b c
+
+
+
+
+14)In relatia student-curs cardinalitatea N:M semnifica urmatoarele:
+
+Alegeți o opțiune:
+a. 
+la fiecare curs participa cate un student 
+b. 
+fiecare student participa la cel mult un curs 
+c. fiecare curs are cel mult un student 
+d. 
+fiecare student participa la mai multe cursuri 
+
+
+Raspuns: d
+
+
+
+15)Există anumite motive pentru care arhitectura bazelor de date distribuite nu este implementată peste tot și anume
+
+Alegeți una sau mai multe opțiuni:
+a. Întreținerea dicționarului de date ( catalogul structurii bazei de date) devine o problemă. Atunci cand o locație are nevoie să acceseze dicționarul de date, aceasta trebuie să trimită o interogare pe WAN, mărind astfel traficul pe rețea si scăzând performanța. În cazul în care o copie a dicționarului de date  e salvată în fiecare locație, atunci modificările făcute in acesta trebuie trimise în fiecare dintre locații. Astfel există posibilitatea ca la un moment dat copiile dicționarului de date să se desincronizeze. 
+b. Unele date vor exista în mai multe locatii 
+c. Întrucât datele sunt transmise prin WAN, riscurile de securitate sunt mai mari 
+d. Interogările care necesită date din locații diferite sunt executate relativ încet. 
+
+Raspuns:  toate ?
+
+
+
+16)Ce cardinalitate are asocierea din imaginea următoare?
+
+Alegeți o opțiune:
+a. 1:C 
+b. 1:1 
+c. 1:N 
+d. M:N 
+
+Raspuns: b
+
+
+
+
+17)Ce afirmație referitoare la relațiile din diagrama este falsa?
+Alegeți o opțiune:
+a. Pentru respectarea integrității referențiale valorile atributului idCititor sunt diferite 
+b. O înregistrare din tabelul FisaImprumut nu poate fi ștearsa atât timp cat cititorul exista in tabelul Cititor 
+c. Un cititor trebuie sa fie adăugat in tabelul Cititor înainte ca pentru acesta sa se poată adăuga o înregistrare in tabelul FisaImprumut 
+d. Un cititor nu poate fi șters atâta timp cat identificatorul lui este folosit in tabelul FisaImprumut 
+
+Raspuns: b ?
+
+
+
+18)Folosind baza de date COMENZI care conține tabelele: 
+PERSOANE (IdPersoana - pk, Nume, Prenume, Oras) 
+COMENZI (IdComanda - pk, Valoare, IdPersoana - fk) 
+precizați interogarea care generează o lista cu valoarea totala a comenzilor efectuate de fiecare persoană.
+Alegeți o opțiune:
+a. SELECT Comenzi.IdPersoana, SUM(Comenzi.Valoare) FROM Comenzi GROUP BY Comenzi.IdPersoana 
+b. SELECT Comenzi.IdPersoana, AVG(Comenzi.Valoare) FROM Comenzi GROUP BY Comenzi.IdPersoana 
+c. SELECT Comenzi.IdPersoana, SUM(Comenzi.Valoare) FROM Comenzi ORDER BY Comenzi.IdPersoana 
+d. SELECT Comenzi.IdPersoana, SUM(Comenzi.Valoare) FROM Comenzi 
+
+Raspuns: a
+
+
+
+19)Ce este adevărat despre asocierea dintre Casă si Fereastră?
+
+A.  @Entity
+public class Fereastră {
+C.    @Id
+D.    private int nrFereastră;
+E.    @ManyToOne
+F.    private Casă oCasă;
+G.  }
+H.   
+I.  @Entity
+public class Casă {
+K.    @Id
+L.    private int nrCasă;
+M.    @OneToMany(mappedBy="oCasă")
+N.    private List<Fereastră> ferestre;
+O.  }
+     
+
+20)Alegeți una sau mai multe opțiuni:
+a. Este o asociere OneToMany bidirecțională 
+b. Deținătoarea asocierii este clasa Casă 
+c. Este o asociere OneToMany unidirecțională 
+d. Deținătoarea asocierii este clasa Fereastră 
+
+Raspuns: a b
+
+
+
+21)Ce este o dependenta funcționala?
+Alegeți o opțiune:
+a. Atributul B este dependent funcțional de atributul A daca pentru fiecare valoare a atributului B exista asociata cel mult o valoare a atributului A 
+b. Atributul B este dependent funcțional de atributul A daca pentru orice valoare a atributului B exista cel puțin doua valuri ale atributului A 
+c. Atributul B este dependent funcțional de atributul A daca pentru fiecare valoare a atributului A exista asociata cel mult o valoare a atributului B. 
+d. Atributul B este dependent funcțional de atributul A daca pentru fiecare valoare a atributului A exista cel puțin doua valuri ale atributului B 
+
+Raspuns: a
+
+
+
+22)Independenta datelor
+Alegeți una sau mai multe opțiuni:
+a. Independenta fizica a datelor este o masura a variatiei datelor fata de transformari cand se fac modificari in structura fizica de memorare a datelor 
+b. Independenta datelor inseamna ca exista o combinare folosind structuri de date intre reprezentarea fizica a datelor si imaginea pe care o are utilizatorul asupra acestor date. 
+c. Independenta datelor inseamna ca exista o delimitare stricta intre reprezentarea fizica a datelor si imaginea pe care o are utilizatorul asupra acestor date. 
+d. Independenta fizica a datelor este o masura a imunitatii datelor fata de modificarile care pot să apara in structura fizica de memorare a datelor. 
+
+Raspuns: c d 
+
+
+
+23)În ce domenii se utilizează bazele de date?
+
+
+Alegeți una sau mai multe opțiuni:
+a. Informatii guvernare 
+b. Universități, vânzări, revânzători 
+c. Domeniul bancar, gestiune zboruri 
+d. Producție, resurse umane 
+
+Raspuns: toate
+
+
+
+24)Care sunt avantajele SGBD vs BD?
+Alegeți o opțiune:
+a. Posibilitatea de partajare a standardelor 
+b. Compactitate scăzuta a datelor 
+c. Timp de dezvoltare a bazelor de date redus 
+d. Viteză medie de actualizare si regasire a datelor 
+
+Raspuns: c
+
+
+
+
+
+25)Cum sunt culese datele din viața reală?
+
+
+Alegeți o opțiune:
+a. Doar pe bază de măsurători 
+b. Pe bază de observații si măsurători 
+c. Datele nu se pot culege din viața reală 
+d. Doar pe bază de observații 
+
+Raspuns: b
+
+
+
+
+26)Catalogul sistem stocheaza
+Alegeți una sau mai multe opțiuni:
+a. limbajul de manipulare a datelor 
+b. schemele externe, conceptuale si interne si maparile dintre acestea 
+c. statistici de utilizare ca frecventa tranzactiilor si contorizarea numarului de accesari ale obiectelor din baza de date 
+d. articolele de date pe care le poate accesa fiecare utilizator si tipurile de acces permise 
+
+Raspuns: b c d
+
+
+
+
+27)Modelele de date se pot clasifica in:
+Alegeți o opțiune:
+a. modele de date bazate pe integistrari 
+b. modele de date bazate pe obiecte 
+c. modele conceptuale 
+d. modele fizice, modele de date bazate pe obiecte, modele de date bazate pe integistrari 
+
+Raspuns: d
+
+
+
+28)Pentru combinarea randurilor din doua sau mai multe tabele pe baza unei coloane comune exista urmatoarele tipuri de join:
+Alegeți una sau mai multe opțiuni:
+a. full outer join 
+b. right outer join 
+c. left outer join 
+d. inner join 
+
+Raspuns: toate
+
+
+
+29)Nivelul intern reprezinta:
+Alegeți o opțiune:
+a. colectie de fisiere cu date logice 
+b. colectie de fisiere cu date fizice 
+c. o schema interna 
+d. inregistrari interne (internal records) 
+
+Raspuns: b
+
+
+
+
+
+
+30)Pentru asocierea 1:N avem:
+
+
+Alegeți o opțiune:
+a. fiecare mama are exact un copil 
+b. fiecare copil are exact o mama 
+c. fiecare copil poate avea cel putin o mama 
+d. fiecare mama poate avea cel mult un copil 
+
+Raspuns: b
+
+
+
+
+31)O cheie este:
+Alegeți o opțiune:
+a. un atribut redundant 
+b. o submultime de atribute dintr-o relatie 
+c. o multime de atribute dintr-o relatie 
+d. nu contine nicio valoare penrtru indecsi 
+
+Raspuns: b
+
+
+
+32)La ce nivel al bazei de date se refera descriere entitatii de mai jos ?
+
+EMPLOYEE
+EMPLOYEE_NUMBER               CHARACTER(6)
+DEPARTMENT_NUMBER          CHARACTER(4)
+SALARY                                      NUMERIC(5)
+
+
+Alegeți o opțiune:
+a. extern 
+b. conceptual 
+c. intern 
+d. fizic 
+
+Raspuns: b
+
+
+
+
+
+33)In context general o procedura se refera la
+Alegeți una sau mai multe opțiuni:
+a. definirea rolurilor si drepturilor asupra datelor 
+b. o multime de instructiuni grupate logic 
+c. reguli care ajuta la proiectare 
+d. utilizarea bazei de date 
+
+Raspuns: toate 
+
+
+
+34)Pentru a alipi doua tabele folosind JOIN in SQL se utilizeaza instructiunile
+Alegeți una sau mai multe opțiuni:
+a. UPDATE 
+b. SELECT 
+c. COMMIT 
+d. INSERT 
+
+Raspuns: a b d
+
+
+
+Care dintre afirmațiile de mai jos este corectă?
+
+
+35)Alegeți o opțiune:
+a. Datele au un caracter subiectiv, în timp ce informaţia este obiectiva 
+b. Datele si informațiile au caracter obiectiv 
+c. Datele si informațiile au caracter subiectiv 
+d. Datele au un caracter obiectiv, în timp ce informaţia este subiectivă 
+
+Raspuns: d
+
+
+
+
+36)Carui tip de anomalie ii corespunde conflictul de tip citire-scriere  şi apare atunci când aceeaşi tranzacţie găseşte valori diferite la citiri repetate ale aceleiaşi date?
+Alegeți o opțiune:
+a. anomalia de citire improprie 
+b. anomalia de actualizare pierdută 
+c. anomalia de citire fantomă 
+d. anomalia de citire irepetabilă 
+
+Raspuns: b
+
+
+
+37)Marcati propozitia adevarata despre un view (vedere) asupra bazei de date: 
+Alegeți o opțiune:
+a. Este o tabelă cu cel mult o cheie unică 
+b. Este o  tabelă fizică 
+c. Nu stochează date 
+d. Nu se comportă ca un tabel 
+
+Raspuns: c
+
+
+
+38)Limbajul de manipularea a datelor (DML) este utilizat pentru: 
+Alegeți o opțiune:
+a. Citirea şi reactualizarea bazei de date 
+b. Descrierea entitaților 
+c. Specificarea schema bazei de date 
+d. Descrierea obiectelor din baza de date 
+
+Raspuns: a
+
+
+
+
+
+39)Ce este o baza de date relationala?
+Alegeți o opțiune:
+a. o structura de date compusa din tabele 
+b. o colectie de date interrelationate gestionata ca o singura unitate 
+c. o vizualizare a datelor pe baza de indecsi 
+d. un produs software furnizat de un producator de baze de date 
+
+Raspuns: b
+
+
+
+
+40)O cheie primara:
+Alegeți o opțiune:
+a. este compusa din mai multe atribute 
+b. este compusa din zero, unul sau mai multe attribute 
+c. este compusa dintr-un singur atribut care are si valori NULL 
+d. este compusa exclusiv dintr-un singur atribut 
+
+Raspuns: a
+
+
+
+
+
+41)Se da relatia:
+ANGAJATI (CodAngaj, Nume, DataAngajare, Departament, Profesia, Salariu).
+Care dintre urmatoarele instructiuni SQL permite afisarea numarului de salariati din fiecare departament care incepe cu litera ”A”? 
+
+Alegeți o opțiune:
+a. SELECT COUNT(CodAngajat) AS Numar, Nume, Departament FROM ANGAJATI WHERE Nume like "A*" GROUP BY Departament 
+b. SELECT CodAngajat, Nume, Departament FROM ANGAJATI WHERE Nume like A* 
+c. SELECT COUNT(CodAngajat) AS Numar, Departament FROM ANGAJATI WHERE Departament like "A*" GROUP BY Departament 
+d. SELECT CodAngajat, Nume, Departament FROM ANGAJATI WHERE Departament like A* 
+
+Raspuns: c
+
+
+
+
+42)Se da relatia: CHITANTA (NrChitanta, Suma, DataChitanta, NrGhiseu).
+Care dintre urmatoarele interogari SQL are ca efect afisarea zilelor in care s-au emis mai mult de 2 chitante? 
+
+Alegeți o opțiune:
+a. SELECT Nrchitanta, Suma, Data FROM CHITANTA WHERE COUNT(NrChitanta)>2 
+b. SELECT Nrchitanta, Suma, Data FROM CHITANTA HAVING COUNT(NrChitanta)>2 
+c. SELECT COUNT(Data), COUNT(NrChitanta) FROM CHITANTA WHERE Data IS Unique 
+d. SELECT CHITANTE.Data FROM CHITANTA GROUP BY Data HAVING COUNT(NrChitanta)>2 
+
+Raspuns: d
+
+
+
+43)Ce afirmatie este adevărata despre comanda 'mvn clean'?
+Alegeți o opțiune:
+a. Este folosita la migrarea aplicațiilor 
+b. Șterge artefactele create de rulările precedente 
+c. Se folosește pentru asamblarea unei aplicații 
+d. Generează documentația pentru proiect 
+
+Raspuns: b
+
+
+
+
+44)Care sunt condiții de corectitudine ale fragmentării?
+Alegeți una sau mai multe opțiuni:
+a. disjunctie 
+b. reconstructie 
+c. asociativitate 
+d. completitudine 
+
+Raspuns: a b d
+
+
+
+
+
+45)Pentru exprimarea unei conditii intr-o fraza SELECT (SQL) se foloseste clauza:
+Alegeți o opțiune:
+a. GROUP BY 
+b. FROM 
+c. HAVING 
+d. WHERE 
+
+Raspuns: d
+
+
+
+
+
+46)Instrucțiunea ALTER TABLE permite:
+Alegeți o opțiune:
+a. Actualizarea conținutului unei tabelei 
+b. Ștergerea datelor redundante 
+c. Modificarea datelor din tabelă 
+d. Ștergerea cheii primare a unui tabel 
+
+Raspuns: c
+
+
+
+
+47)Se da relatia: CHITANTA (NrChitanta, Suma, DataChitanta, NrGhiseu).
+Care dintre urmatoarele interogari SQL are ca efect afisarea valorii totale a incasarilor din fiecare luna a anului curent?
+
+Alegeți o opțiune:
+a. SELECT SUM(Suma) AS Total, Month(DataChitanta) AS Luna FROM CHITANTE WHERE Anul=2018 
+b. SELECT SUM(Suma) AS Total, DataChitanta FROM CHITANTE WHERE Anul= year(Today()) 
+c. SELECT SUM(Suma) AS TotalValoare, Month(DataChitanta) AS Luna FROM CHITANTE WHERE year(DataChitanta)=2018 GROUP By DataChitanta 
+d. SELECT SUM(Suma) AS TotalValoare, Month(DataChitanta) AS Luna FROM CHITANTE WHERE year(DataChitanta)=year(Now()) GROUP BY Month(DataChitanta) 
+
+Raspuns: d
+
+
+
+
+48)Rolul unei funcții de agregare este de a:
+Alegeți o opțiune:
+a. Combina mai multe rânduri de date cu coloanele pe care se aplică funcția 
+b. Combina mai multe coloane într-o singură coloană 
+c. Returna o valoare logică de „adevărat” sau „fals” 
+d. Combina mai multe rânduri de date într-un singur rând care afișează rezultatul funcției 
+
+Raspuns: a
+
+
+
+
+
+49)Care dintre urmatoarele nu este o fază din ciclul de viata al proiectelor gestionate cu Maven?
+Alegeți o opțiune:
+a. validate 
+b. run 
+c. verify 
+d. compile 
+
+
+Raspuns: b
+
+
+
+
+
+
+50)Cum trebuie sa fie informația pentru luarea unei decizii corecte?
+Alegeți o opțiune:
+a. Toate cele precizate 
+b. Necontradictorie  si neredundantă 
+c. Să aibă o formă adecvată necesităţilor factorului de decizie 
+d. Disponibilă în timp util si corectă 
+
+Raspuns: a
+
+
+
+
+
+51)Care dintre urmatoarele afirmatii sunt adevarate relativ la fisierul pom.xml?
+Alegeți o opțiune:
+a. Un fișier de configurare xml care specifica ce biblioteci externe sunt folosite din repository-ul M2 
+b. Întotdeauna se afla in rădăcina proiectului 
+c. Toate afirmatiile sunt corecte 
+d. Conține informații despre proiect si diferite configurări folosite de Maven pentru a crea proiectul. 
+
+Raspuns: c
+
+
+
+52)Cheia primară reprezintă un atribut sau un grup de atribute care?
+Alegeți o opțiune:
+a. Identifică în mod unic toate celelalte atribute  ale relației din care face parte 
+b. Identifică fiecare tuplu, în funcție de relația în care participă 
+c. Identifică unic fiecare tuplu al unei relații 
+d. Nu poate fi referită nicioadată din relația din care face parte 
+
+Raspuns: c
+
+
+
+
+53)O bază de date relațională este:
+Alegeți o opțiune:
+a. Un produs software furnizat de un producător de baze de date 
+b. O structură de date,cum ar fi un tabel, un view (vizualizare) sau un index 
+c. O colectie definită în același mod de toți producătorii de software 
+d. O colecție de date interrelaționate gestionate ca o singură unitate 
+
+Raspuns: d
+
+
+
+
+54)Care convenție de sintaxă este corectă pentru limbajul SQL?
+Alegeți o opțiune:
+a. O instrucțiune SQL se termină prin delimitatorul / 
+b. Valorile dintr-o listă sunt separate prin virgulă 
+c. Valorile dintr-o listă sunt separate prin punct și virgulă 
+d. O interogare SQL se termină cu delimitatorul punct 
+
+Raspuns: b
+
+
+
+
+55)Care sunt cerinte pentru modelarea problemei de gestiune a unui cabinet veterinar?
+Alegeți una sau mai multe opțiuni:
+a. Un cabinet veterinar se compune din una sau mai multe sali, aflate pe unul sau mai multe etaje. Fiecare sala este asignata unui doctor veterinar si aditional unui asistent. Sala este destinata unui anumit tip de operatie/tratament, pentru unul sau mai multi pacienti, poate fi folosita de anumiti doctori si contine echipament si medicamente specifice. 
+b. Un proprietar poate detine unul sau mai multi pacienti. Proprietarul este responsabil pentru a achita costul tratamentului pentru animalul sau, cu bani gheata sau cu cardul, iar in cazul tratamentelor ce necesita sedinte ulterioare va putea achita dupa fiecare tratament sau pretul intreg de la inceput. Ca dovada a platii acesta primeste o chitanta cu costul, doctorul, sala, pacientul etc. 
+c. Fiecare doctor/asistent are un numar de programari pe zi. Programarile constau intr-un interval de timp in care doctorul se ocupa de unul sau mai multe animale ale unui proprietar folosind fie o sala din cadrul cabinetului fie deplasandu-se la locul proprietarului. Doctorul foloseste echipament si medicamente pentru a finaliza tratamentul. 
+d. Un patient reprezinta un animal ,diferentiat prin nume, rasa , microchip, inaltime etc. Un tip de pacient specific ,cabinetul va fi cainele , clinica fiind specializata pe tratarea caninilor, acestia avand mai multe optiuni in ceea ce priveste tratamentele. 
+
+Raspuns: a b c d - ?
+
+
+
+56)Realizarea unui model de date logic este specific:
+Alegeți o opțiune:
+a. Proiectării conceptuale 
+b. Proiectării logice 
+c. Proiectării fizice 
+d. Proiectării tranzacțiilor 
+
+Raspuns: b
+
+
+
+57)Nivelul conceptual al unei baze de date reprezinta
+Alegeți una sau mai multe opțiuni:
+a. constrangeri asupra datelor si informatii semantice 
+b. informatii privind securitatea si integritatea 
+c. toate variantele sunt corecte 
+d. toate entitatiile, atributele si relatiile dintre ele 
+
+Raspuns: c
+
+
+
+
+
+58)Carui tip de anomalie ii corespunde conflictul de tip scriere-scriere?
+Alegeți o opțiune:
+a. anomalia de citire fantomă 
+b. anomalia de actualizare pierdută 
+c. anomalia de citire irepetabilă 
+d. anomalia de citire improprie
+
+Raspuns: c
+
+
+
+
+
+59)Care sunt avantaje ale utilizarii bazelor de date?
+Alegeți una sau mai multe opțiuni:
+a. Posibilitatea partajării datelor 
+b. Posibilitatea aplicării restricţiilor de securitate 
+c. Regasirea datelor 
+d. Reducerea redundanţei datelor 
+
+Raspuns: a b c d
+
+
+
+
+
+60)Alegeti etape din ciclul de viata al unui proiect gestionat cu maven
+Alegeți una sau mai multe opțiuni:
+a. Compilare 
+b. Validare 
+c. Verificare 
+d. Planificare 
+
+Raspuns: a b c 
+
+
+
+
+
+
+61)Transparenţa locaţiei = utilizatorul nu este conştient de distribuirea datelor în sistem, pentru el toate datele fiind reţinute într-o singură bază de date dintr-o locaţie unică, dar datele sunt stocate în diferite locaţii fizice
+Ce alte tipuri de tranparenta exista?
+Alegeți una sau mai multe opțiuni:
+a. Transparenţa în cadrul procesului de migrare a resurselor 
+b. Transparenţa replicării 
+c. Transparenţa concurenţei 
+d. Transparenţa accesului la sistemul distribuit de baze de date 
+
+Raspuns: toate - ?
+
+
+
+
+
+62)Ce tipuri de algoritmii pentru controlul concurenţei exista?
+Alegeți una sau mai multe opțiuni:
+a. Algoritmi de control prin sortate 
+b. Algoritmi de control prin evitare 
+c. Algoritmi de control prin blocare 
+d. Algoritmi de control prin marcare 
+
+Raspuns: c d
+
+
+
+
+
+
+63)Proiectarea bazei de date se referă și la:
+Alegeți o opțiune:
+a. Prototipizare 
+b. Monitorizare 
+c. Testare 
+d. Alegerea SGBD 
+
+Raspuns: d
+
+
+
+
+
+
+64)Confidentialitatea datelor este asigurata prin
+Alegeți una sau mai multe opțiuni:
+a. autentificarea prin parola si atribuirea de roluri utilizatorilor 
+b. identificarea utilizatorilor prin nume sau coduri de acces  
+c. criptarea datelor 
+d. autorizarea accesului diferentiat prin drepturi de creare, consultare, modificare sau stergere pentru anumite date 
+
+Raspuns: toate
+
+
+
+65)Ce este un atribut?
+Alegeți o opțiune:
+a. Un atribut este o coloană a unei relaţii care are o anumită denumire 
+b. Un domeniu de valori 
+c. Un tabel bidimensional 
+d. O structura logica a unei baze de date 
+
+Raspuns: a
+
+
+
+
+
+66)Operatiile fundamentale din algebra rationala sunt:
+Alegeți o opțiune:
+a. selectia, proiectia, produsul cartezian 
+b. selectia, reuniunea, diferenta 
+c. selectia, proiectia, produsul cartezian, reuniunea, diferenta 
+d. selectia, proiectia, diferenta 
+
+Raspuns: c
+
+
+
+
+
+
+67)Alegeți propoziția adevărată:
+Alegeți o opțiune:
+a. Normalizarea elimină redundanța datelor 
+b. Relațiile dintr-o bază de date se referă la restricții 
+c. Proiectarea bazelor de date începe cu optimizarea structurii 
+d. Cheile candidate iau forma indecșilor 
+
+Raspuns: d
+
+
+68)Cum se realizeaza corespondenţa dintre câmpurile de pe cele trei niveluri ale arhitecturii bazelor de date?
+Alegeți o opțiune:
+a. prin mapare 
+b. printr-o descriere tipica 
+c. printr-o inregistrare SQL 
+d. printr-o operatie relizata de sistemele relationale 
+
+Raspuns: a
+
+
+
+
+69)Ce realizează o baza de date?
+
+
+Alegeți una sau mai multe opțiuni:
+a. Integrarea datelor, cu o redundanţă minimă 
+b. Implementare de algoritmi si metode 
+c. Independenţa program – date 
+d. Niciunul dintre răspunsuri nu este corect 
+
+Raspuns: a c 
+
+
+
+
+70)Care dintre metodele următoare nu aparține gestionarului de entități JPA (EntityManager)?
+Alegeți o opțiune:
+a. Detach 
+b. Update 
+c. Flush 
+d. Persist 
+
+Raspuns: b
+
+
+
+
+71)Ce model nu face parte dintre principalele modele de memorare ale bazelor de date NoSQL?
+Alegeți o opțiune:
+a. Entity-Relation (colecții de date stocate entitate-relație) 
+b. Graf (colecții stocate pe grafuri) 
+c. KeyValue (colecții de pereche chei-valoare) 
+d. BigTable (tabel cu dimensiune mare) 
+
+Raspuns: a
+
+
+
+
+72)Pentru asocierea C:NC, maestru-ucenic, ce afirmatie este adevarata?
+
+Alegeți o opțiune:
+a. fiecare ucenic este sustinut de mai multi maestrii 
+b. fiecare ucenic este sustinut de unul sau mai multi maestrii 
+c. fiecare maestru poate sa nu sustina niciun ucenic 
+d. fiecare maestru poate sa sustina cel putin un ucenic 
+
+Raspuns: c
+
+
+
+73)Componentele unei baze de date relaționale nu includ:
+Alegeți o opțiune:
+a. Tabele 
+b. Relații 
+c. Diagrame 
+d. Restricții 
+
+Raspuns: c
+
+
+
+
+74)Care este echivalentul JPA pentru fișierul hibernate hibernate.cfg.xml?
+Alegeți o opțiune:
+a. persistence.xml 
+b. configuration.xml 
+c. jpa.configuration.xml 
+d. pom.xml 
+
+Raspuns: a
+
+
+
+
+75)Ce este o bază de date?
+
+Alegeți o opțiune:
+a. Este o colecţie partajată de date elementare sau structurate, între care există relaţii logice, proiectată pentru a satisface nevoile informaţionale ale unei organizaţii 
+b. Este o colecție nepartajată care conține doar date structurate 
+c. Este o colecţie nepartajată de date elementare sau structurate, între care există relaţii logice, proiectată pentru a satisface nevoile informaţionale ale unei organizaţii 
+d. Este o colecție partajată de date care conține doar date elementare 
+
+Raspuns: c
+
+
+
+
+
+76)Nivelul intern tratează chestiuni cum ar fi:
+
+
+Alegeți una sau mai multe opțiuni:
+a. Asigurarea viziunii programatorului asupra datelor independent de suportul tehnic de informaţie 
+b. Asigurarea viziunii analistului de sistem asupra datelor si descrie modul în care ele sunt stocate în baza de date 
+c. Alocarea spaţiului de stocare pentru date şi indecşi 
+d. Asigurarea viziunii administratorului asupra bazei de date independent de aplicațiile care vor fi dezvoltate 
+
+Raspuns: a c 
+
+
+
+
+77)Componentele unui model de date sunt:
+Alegeți o opțiune:
+a. O parte structurală, o parte manipulare și un set de regului de integritate 
+b. Atribute si relații 
+c. Model fizic și logic 
+d. Un model intern si unul extern 
+
+Raspuns: a
+
+
+
+
+
+78)O arhitectura de baze de date distribuite are mai multe avantaje:
+Alegeți una sau mai multe opțiuni:
+a. Fiecare locație păstrează fragmentul din baza de date ce conține datele cele mai frecvent utilizate de către aceasta. Astfel traficul de pe rețea este redus întrucât cele mai multe interogări rămân în LAN-ul locației respective fără ca WAN-ul să mai trebuiască folosit. 
+b. Bazele de date distribuite sunt mai fiabile decât sistemele centralizate. Dacă rețeaua WAN cade, fiecare locație poate continua procesarea datelor folosind  propriul fragment  de bază de date. 
+c. Hardware-ul şi software-ul puse la fiecare locație pot fi adaptate la nevoile acesteia. 
+d. Performanța pentru interogările locale e mai bună, deoarece nu exista decalajul de timp pentru comunicarea prin WAN. 
+
+Raspuns:  toate 
+
+
+
+
+
+79)Într-un model conceptual al prelucrarilor, o sincronizare este întotdeauna precedata de:
+Alegeți o opțiune:
+a. unul sau mai multe evenimente declansatoare 
+b. alta sincronizare 
+c. un tip de operatie 
+d. unul sau mai multe evenimente finale ale procesului 
+
+Raspuns: a
+
+
+
+
+
+80)Identificati tipuri de fragmentare
+Alegeți una sau mai multe opțiuni:
+a. Fragmentare verticala 
+b. Fragmentare neutra 
+c. Fragmentare mixta 
+d. Fragmentare orizontala 
+
+Raspuns: a c d
+
+
+
+
+81)Pentru asocierea femeie-barbat, avand cardinalitatea 1:C, ce afirmatie este corecta?
+
+Alegeți o opțiune:
+a. o femeie are fie exact un barbat, fie niciunul 
+b. un barbat nu este casatorit 
+c. mai multi barbati pot avea o femeie 
+d. o femeie este casatorita cu mai multi barbati 
+
+Raspuns: a
+
+
+
+
+
+82)Legatura de tipul unu-la-mai-multi se realizeaza atunci cand
+Alegeți o opțiune:
+a. tuplurilor din plima relatie le corespund mai multe tupluri din a doua relatie 
+b. unui tuplu din prima relatie ii corespund mai multe tupluri din ce-a de-a doua relatie, in timp ce unui tuplu din a doua relatie ii corespunde un singur tuplu din prima 
+c. unui tuplu din fiecare relatie ii corespunde cel mult un tuplu din cealalta relatie 
+d. se asociaza cel putin trei relatii 
+
+Raspuns: b
+
+
+
+
+
+
+83)Limbajele bazelor de date sunt grupate astfel:
+Alegeți o opțiune:
+a. intr-o categorie ce contine limbajul de manipulare a datelor  DML (data manipulation language) 
+b. intr-o categorie ce contine limbajul de definire a datelor  DDL (data definition language) 
+c. nu pot fi impartite pe categorii 
+d. in doua categorii DDL si DML 
+
+Raspuns: d
+
+
+
+
+84)Nivelul conceptual specific arhitecturii pe nivele se referă la:
+Alegeți o opțiune:
+a. Perceptia administratorului bazei de date asupra datelor 
+b. Perceptia administratorului, al programului si al utilizatorului asupra modului de proiectare a bazei de date 
+c. Perceptia utilizatorului asupra modului de proiectare a bazei de date 
+d. Perceptia programului asupra datelor 
+
+Raspuns: a
+
+
+
+85)Care dintre următoarele facilitați nu este definita de teorema CAP?
+Alegeți o opțiune:
+a. Consistenta 
+b. Disponibilitate 
+c. Atomaritate 
+d. Partiționare 
+
+Raspuns: c 
+
+
+
+86)Un tuplu se obtine prin atribuirea de valori:
+Alegeți o opțiune:
+a. pentru acele atribute care au valoarea NULL 
+b. atributelor cheii straine a relatiei 
+c. atributelor cheii primare a relatiei 
+d. atributelor unei relatii 
+
+Raspuns: d
+
+
+
+
+87)Limbajul SQL:
+Alegeți o opțiune:
+a. Este un limbaj structurat 
+b. Este un limbaj neprocedural si declarativ 
+c. Este un limbaj pentru dezvoltarea aplicațiilor web 
+d. Este un limbaj procedural 
+
+Raspuns: b
+
+
+
+
+
+
+
+88)Ce afirmație referitoare la relațiile din diagrama este falsa?
+Alegeți o opțiune:
+a. Pentru respectarea integrității referențiale valorile atributului idCititor sunt diferite 
+b. O înregistrare din tabelul FisaImprumut nu poate fi ștearsa atât timp cat cititorul exista in tabelul Cititor 
+c. Un cititor trebuie sa fie adăugat in tabelul Cititor înainte ca pentru acesta sa se poată adăuga o înregistrare in tabelul FisaImprumut 
+d. Un cititor nu poate fi șters atâta timp cat identificatorul lui este folosit in tabelul FisaImprumut 
+
+
+Raspuns: b
+
+
+
+
+89)Care sunt condiții de corectitudine ale fragmentării?
+Alegeți una sau mai multe opțiuni:
+a. disjunctie 
+b. reconstructie 
+c. asociativitate 
+d. completitudine 
+
+Raspuns: a b d
+
+
+
+
+90)Rolul unei funcții de agregare este de a:
+Alegeți o opțiune:
+a. Combina mai multe rânduri de date cu coloanele pe care se aplică funcția 
+b. Combina mai multe coloane într-o singură coloană 
+c. Returna o valoare logică de „adevărat” sau „fals” 
+d. Combina mai multe rânduri de date într-un singur rând care afișează rezultatul funcției 
+
+Raspuns: a - ?
+
+
+
+
+
+
+

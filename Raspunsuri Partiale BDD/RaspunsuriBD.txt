@@ -1,0 +1,181 @@
+﻿1)Care dintre următoarele facilitați nu este definita de teorema CAP?
+
+Alegeți o opțiune:
+a. Atomaritate
+b. Consistenta
+c. Disponibilitate
+d. Partiționare
+Raspuns : a
+
+2)Există anumite motive pentru care arhitectura bazelor de date distribuite nu este implementată peste tot și anume
+
+Alegeți una sau mai multe opțiuni:
+a. Unele date vor exista în mai multe locatii
+b. Întreținerea dicționarului de date ( catalogul structurii bazei de date) devine o problemă. Atunci cand o locație are nevoie să acceseze dicționarul de date, aceasta trebuie să trimită o interogare pe WAN, mărind astfel traficul pe rețea si scăzând performanța. În cazul în care o copie a dicționarului de date  e salvată în fiecare locație, atunci modificările făcute in acesta trebuie trimise în fiecare dintre locații. Astfel există posibilitatea ca la un moment dat copiile dicționarului de date să se desincronizeze.
+c. Interogările care necesită date din locații diferite sunt executate relativ încet.
+d. Întrucât datele sunt transmise prin WAN, riscurile de securitate sunt mai mari
+Raspuns : toate 
+
+3)Care dintre urmatoarele afirmatii sunt adevarate relativ la fisierul pom.xml?
+
+Alegeți o opțiune:
+a. Un fișier de configurare xml care specifica ce biblioteci externe sunt folosite din repository-ul M2
+b. Întotdeauna se afla in rădăcina proiectului
+c. Conține informații despre proiect si diferite configurări folosite de Maven pentru a crea proiectul.
+d. Toate afirmatiile sunt corecte
+Raspuns: d
+
+4)In NLP, coreference apare atunci când:
+
+Alegeți o opțiune:
+a. Despărtirea cuvintelor în morfeme.
+b. Obiectele sunt definite prin aceleasi secvente de propoziții
+c. Două sau mai multe cuvinte dintr-un text se referă la același obiect/persoană
+d. Se traduce un text dintr-o limba vorbită în altă limbă prin corespondenta
+Raspuns: c
+
+5)Identificati tipuri de fragmentare
+
+Alegeți una sau mai multe opțiuni:
+a. Fragmentare verticala
+b. Fragmentare orizontala
+c. Fragmentare mixta
+d. Fragmentare neutra
+Raspuns: a, b, c
+
+6)Identificati motive valide pentru fragmentarea relatiilor.
+
+Alegeți una sau mai multe opțiuni:
+a. paralelismul: Cu fragmentele ca unitate de distribuire, tranzactie poate fi  impartita in mai multe subinterogari, care opereaza asupra fragmentelor. Aceasta are ca efect marirea concurentei - paralelism – din sistem, permitand executarea in siguranta a tranzactiilor care pot fi executate in paralel
+b. eficienta: Datele sunt stocate in apropierea locului unde sunt cel mai frecvent utilizate, iar datele care nu sunt necesare pentru aplicatiile locale nu sunt stocate
+c. securitatea date: Securizarea datelor care nu sunt necesare pentru aplicatiile locale, acestea nu sunt stocate si, in consecinta, nu sunt disponibile pentru utilizatorii neautorizati
+d. uzanta: Aplicatiile lucreaza mai bine cu vederi , decat cu relatii intregi. Prin urmare, pentru distribuirea datelor pare mai adecvat sa se lucreza cu subseturi ale relatiilor ca unitate de distribuire 
+Raspuns: toate
+
+7)Care dintre urmatoarele nu este o fază din ciclul de viata al proiectelor gestionate cu Maven?
+
+Alegeți o opțiune:
+a. compile
+b. verify
+c. validate
+d. run
+Raspuns: d
+
+8)Care sunt operatii NoSQL?
+
+Alegeți una sau mai multe opțiuni:
+a. elimiarea unei perechi din colectie
+b. modificarea valorii dintr-o pereche existenta
+c. adaugarea unei perechi la o colectie de date
+d. consultarea/interogarea valorii pentru o cheie data
+Raspuns: toate 
+
+9)Procesarea limbajului natural (NLP-Natural Language Processing) este un domeniu derivat din
+
+Alegeți una sau mai multe opțiuni:
+a. lingvistica computationala specializata pe interactiunile dintre calculatoare si limbaje umane
+b. inteligenta atificiala
+c. informatica
+d. istorie
+Raspuns: a b c
+
+10)O arhitectura de baze de date distribuite are mai multe avantaje:
+
+Alegeți una sau mai multe opțiuni:
+a. Bazele de date distribuite sunt mai fiabile decât sistemele centralizate. Dacă rețeaua WAN cade, fiecare locație poate continua procesarea datelor folosind  propriul fragment  de bază de date.
+b. Hardware-ul şi software-ul puse la fiecare locație pot fi adaptate la nevoile acesteia.
+c. Performanța pentru interogările locale e mai bună, deoarece nu exista decalajul de timp pentru comunicarea prin WAN.
+d. Fiecare locație păstrează fragmentul din baza de date ce conține datele cele mai frecvent utilizate de către aceasta. Astfel traficul de pe rețea este redus întrucât cele mai multe interogări rămân în LAN-ul locației respective fără ca WAN-ul să mai trebuiască folosit.
+Raspuns: toate 
+
+11)Realizarea unui model de date logic este specific:
+
+Alegeți o opțiune:
+a. Proiectării conceptuale
+b. Proiectării logice
+c. Proiectării tranzacțiilor
+d. Proiectării fizice
+Raspuns: b
+
+12)Ce model nu face parte dintre principalele modele de memorare ale bazelor de date NoSQL?
+
+Alegeți o opțiune:
+a. Graf (colecții stocate pe grafuri)
+b. KeyValue (colecții de pereche chei-valoare)
+c. Entity-Relation (colecții de date stocate entitate-relație)
+d. BigTable (tabel cu dimensiune mare)
+Raspuns: c
+
+13)Modelul de date contine
+
+Alegeți una sau mai multe opțiuni:
+a. definirea relatiilor dintre date
+b. constrangeri impuse datelor
+c. tranzactii ce realizeaza citiri si scrieri
+d. descrierea datelor
+Raspuns: a b d 
+
+14)Care sunt condiții de corectitudine ale fragmentării?
+
+Alegeți una sau mai multe opțiuni:
+a. completitudine
+b. asociativitate
+c. reconstructie
+d. disjunctie
+Raspuns: a c d 
+
+15)Care este echivalentul JPA pentru fișierul hibernate hibernate.cfg.xml?
+
+Alegeți o opțiune:
+a. pom.xml
+b. configuration.xml
+c. jpa.configuration.xml
+d. persistence.xml
+Raspuns: d
+
+16)Transparenţa locaţiei = utilizatorul nu este conştient de distribuirea datelor în sistem, pentru el toate datele fiind reţinute într-o singură bază de date dintr-o locaţie unică, dar datele sunt stocate în diferite locaţii fizice
+
+Ce alte tipuri de tranparenta exista?
+
+Alegeți una sau mai multe opțiuni:
+a. Transparenţa accesului la sistemul distribuit de baze de date
+b. Transparenţa în cadrul procesului de migrare a resurselor
+c. Transparenţa concurenţei
+d. Transparenţa replicării
+Raspuns: toate 
+
+17)Ce sunt hashmap-urile?
+
+Alegeți o opțiune:
+a. valori agregate intr-o clasa denumita column
+b. componente prin care perechile cheie-valoare sunt stocate ca doua valori individuale
+c. pot fi descrise ca fiind modele de date
+d. structuri ce stocheaza datele printr-o cheie unica folosita pentru a regasi datele
+Raspuns: d
+
+18)Ce afirmatie este adevărata despre comanda 'mvn clean'?
+
+Alegeți o opțiune:
+a. Se folosește pentru asamblarea unei aplicații
+b. Șterge artefactele create de rulările precedente
+c. Generează documentația pentru proiect
+d. Este folosita la migrarea aplicațiilor
+Raspuns: b
+
+19)Rularea tranzactiilor in doua faze semnifica:
+
+Alegeți o opțiune:
+a. contin doua faze, una de definire si alta de prelucrare a datelor
+b. rularea conforma cu protocolul de commit in doua faze (2PC)
+c. sunt formate din citiri si scrieri
+d. contin doua faze de executie
+Raspuns: b
+
+20)Care dintre urmatoarele afirmatii este adevarata despre sistemele de fisiere?
+
+Alegeți una sau mai multe opțiuni:
+a. E posibil ca programatorul care lucreaza cu programul in care sunt folosite datele sa fie singurul care poate face interogarea si rapoarte folosind fisierele.
+b. Datele sunt separate si izolate deci pentru anumite aplicatii, este necesara prelucrarea si sincronizarea a doua sau mai multe fisiere.
+c. La modificarea unei date este necesara modificarea tuturor programelor care o folosesc ceea ce necesita timp si pot rezulta erori. Datele sunt dependete de programul si limbajul in care sunt scrise.
+d. Deoarece fiecare program isi defineste si organizeaza propriile date, lipsind un sistem centralizat cu date, se poate ajunge la dublarea datelor ce produce risida de spatiu de stocare, incosistenta si alterare a integritatii datelor.
+Raspuns: toate 
