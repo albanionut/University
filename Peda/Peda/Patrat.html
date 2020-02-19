@@ -1,0 +1,283 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Geometrix</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+.w3-quarter img{margin-bottom: -6px; cursor: pointer}
+.w3-quarter img:hover{opacity: 0.6; transition: 0.3s}
+</style>
+<body class="w3-light-grey">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
+  .bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+  </style>
+</head>
+    <SCRIPT language="JavaScript"
+        type="text/javascript">
+<!--
+//
+// Documentation:
+//   http://chami.com/tips/javascript/
+//
+function checkAnswer(quizForm,
+                     theAnswer,
+                     urlRight,
+                     urlWrong)
+{
+  var s = "?";
+
+  // go through the "current choices"
+  // to find the selected choice.
+  // radio boxes pointing to choices
+  // must be named "cc"
+  // change if necessary
+  //
+  var i = 0;
+  for(;i<quizForm.elements.length;i++)
+  {
+    if(("cc" ==
+        quizForm.elements[i].name) &&
+       (quizForm.elements[i].checked))
+    {
+      s = quizForm.elements[i].value;
+    }
+  }
+
+  // no choice was selected
+  //
+  if("?" == s)
+  {
+    alert("Please make a selection.");
+    return false;
+  }
+
+  // check if we have the correct
+  // choice selected
+  //
+  if(s == theAnswer)
+  {
+    alert("'"+s+"' is correct!");
+    if(urlRight)
+    {
+    document.location.href = urlRight;
+    }
+  }
+  else
+  {
+    alert("'"+s+"' is incorrect.");
+    if( urlWrong )
+    {
+    document.location.href = urlWrong;
+    }
+  }
+
+  // return "false" to indicate not to
+  // submit the form.
+  // change this to "true" if the form
+  // "action" is valid,
+  // i.e. points to a valid CGI script
+  //
+  return false;
+}
+//-->
+</SCRIPT>
+<body>
+    
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Geometrix</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="C:\Peda\Peda\Peda.html">TEORIE</a></li>
+        <li><a href="C:\Peda\Peda\Triunghi.html">TEST</a></li>
+        <li><a href="C:\Peda\Peda\Game.html">JOC</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">TEST PATRAT</h3>
+    <h3>Succes!</h3>
+    <br><br>
+    1. Ce este perimetrul?
+
+<FORM method="POST"
+      onSubmit="return checkAnswer(this,'B ');"
+>
+
+<INPUT TYPE="RADIO" VALUE="A" NAME="cc">
+A. Suma tuturor laturilor <BR>
+
+<INPUT TYPE="RADIO" VALUE="B" NAME="cc">
+B. Suma tuturor unghiurilor<BR>
+
+<INPUT TYPE="RADIO" VALUE="C" NAME="cc">
+C.Produsul laturilor <BR>
+
+<INPUT TYPE="SUBMIT" VALUE="Submit Answer" style="color: #2f2f2f;">
+
+</FORM>
+
+<BR> </BR>
+
+
+ 2. Care este aria unui patrat?
+
+<FORM method="POST"
+      onSubmit="return checkAnswer(this,'A');"
+>
+
+<INPUT TYPE="RADIO" VALUE="A" NAME="cc">
+A. Latua^2 <BR>
+
+<INPUT TYPE="RADIO" VALUE="B" NAME="cc">
+B.Latura + Latura<BR>
+
+<INPUT TYPE="RADIO" VALUE="C" NAME="cc">
+C.Latura * Unghi <BR>
+
+<INPUT TYPE="SUBMIT" VALUE="Submit Answer "style="color: #2f2f2f;">
+
+</FORM>
+
+<BR> </BR>
+
+ 3. Ce este un patrat??
+
+<FORM method="POST"
+      onSubmit="return checkAnswer(this,'A');"
+>
+
+<INPUT TYPE="RADIO" VALUE="A" NAME="cc">
+A. Un paralelogram cu un unghi drept si toate laturile egale <BR>
+
+<INPUT TYPE="RADIO" VALUE="B" NAME="cc">
+B. Un paralelogram cu doua cate doua  laturi congruente <BR>
+
+<INPUT TYPE="RADIO" VALUE="C" NAME="cc">
+C. Un corp geometric    <BR>
+
+<INPUT TYPE="SUBMIT" VALUE="Submit Answer" style="color: #2f2f2f;">
+
+</FORM>
+
+<BR> </BR>
+
+
+ 4. Care este formula diagonale??
+
+<FORM method="POST"
+      onSubmit="return checkAnswer(this,'A');"
+>
+<INPUT TYPE="RADIO" VALUE="A" NAME="cc">
+A. L radical din 2 <BR>
+
+<INPUT TYPE="RADIO" VALUE="B" NAME="cc">
+B. L radical din 3  <BR>
+
+<INPUT TYPE="RADIO" VALUE="C" NAME="cc">
+C. 2L <BR>
+
+<INPUT TYPE="SUBMIT" VALUE="Submit Answer" style="color: #2f2f2f;">
+
+</FORM>
+
+
+<BR> </BR>
+
+ 5. Care varianta este adevarata ?
+
+<FORM method="POST"
+      onSubmit="return checkAnswer(this,'A ');"
+>
+
+<INPUT TYPE="RADIO" VALUE="A" NAME="cc">
+A. Inaltimea patratului coincide cu latura<BR>
+
+<INPUT TYPE="RADIO" VALUE="B" NAME="cc">
+B. Unghiurile sunt congruente doua cate doua <BR>
+
+<INPUT TYPE="RADIO" VALUE="C" NAME="cc">
+C. Laturile nu sunt paralele   <BR>
+
+<INPUT TYPE="SUBMIT" VALUE="Submit Answer" style="color: #2f2f2f;">
+
+</FORM>
+
+<BR> </BR>
+</h4>
+    
+</div>
+
+
+     <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="C:\Peda\Peda\Triunghi.html" class="w3-bar-item w3-button w3-hover-black">1</a>
+      <a href="C:\Peda\Peda\Patrat.html" class="w3-bar-item w3-black w3-button">2</a>
+      <a href="C:\Peda\Peda\Cerc.html" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+
+</body>
+</html>

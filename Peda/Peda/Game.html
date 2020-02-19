@@ -1,0 +1,237 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Geometrix</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+.w3-quarter img{margin-bottom: -6px; cursor: pointer}
+.w3-quarter img:hover{opacity: 0.6; transition: 0.3s}
+</style>
+<body class="w3-light-grey">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
+  .bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+  </style>
+</head>
+    <SCRIPT language="JavaScript"
+        type="text/javascript">
+//
+// Documentation:
+//   http://chami.com/tips/javascript/
+//
+function checkAnswer(quizForm,
+                     theAnswer,
+                     urlRight,
+                     urlWrong)
+{
+  var s = "?";
+
+  // go through the "current choices"
+  // to find the selected choice.
+  // radio boxes pointing to choices
+  // must be named "cc"
+  // change if necessary
+  //
+  var i = 0;
+  for(;i<quizForm.elements.length;i++)
+  {
+    if(("cc" ==
+        quizForm.elements[i].name) &&
+       (quizForm.elements[i].checked))
+    {
+      s = quizForm.elements[i].value;
+    }
+  }
+
+  // no choice was selected
+  //
+  if("?" == s)
+  {
+    alert("Please make a selection.");
+    return false;
+  }
+
+  // check if we have the correct
+  // choice selected
+  //
+  if(s == theAnswer)
+  {
+    alert("'"+s+"' is correct!");
+    if(urlRight)
+    {
+    document.location.href = urlRight;
+    }
+  }
+  else
+  {
+    alert("'"+s+"' is incorrect.");
+    if( urlWrong )
+    {
+    document.location.href = urlWrong;
+    }
+  }
+
+  // return "false" to indicate not to
+  // submit the form.
+  // change this to "true" if the form
+  // "action" is valid,
+  // i.e. points to a valid CGI script
+  //
+  return false;
+}
+//-->
+</SCRIPT>
+<body>
+    
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Geometrix</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="C:\Peda\Peda\Peda.html">TEORIE</a></li>
+        <li><a href="C:\Peda\Peda\Triunghi.html">TEST</a></li>
+        <li><a href="C:\Peda\Peda\Game.html">JOC</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+<!-- Container -->
+<div class="container-fluid bg-2 " style="padding-top:50px;">
+  <h1 style="text-align: center;">Memory Game</h1>
+  <h4 style="text-align: center;">Gasiti ariile pentru fiecare figura geometrica.</h4>
+  
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+  
+    <title>Memory Game</title>
+  
+    <link rel="stylesheet" href="game/styles.css">
+  </head>
+  <body>
+    
+    <section class="memory-game">
+      <div class="memory-card" data-framework="aurelia">
+        <img class="front-face" src="game/paralelpng.png" alt="Aurelia" />
+        <img class="back-face" src="game/img/js-badge.svg" alt="JS Badge" />
+      </div>
+      <div class="memory-card" data-framework="aurelia">
+        <img class="front-face" src="game/paralel2.png" alt="Aurelia" />
+        <img class="back-face" src="game/img/js-badge.svg" alt="JS Badge" />
+      </div>
+  
+      <div class="memory-card" data-framework="vue">
+        <img class="front-face" src="game/squarepng.png" alt="Vue" />
+        <img class="back-face" src="game/img/js-badge.svg" alt="JS Badge" />
+      </div>
+      <div class="memory-card" data-framework="vue">
+        <img class="front-face" src="game/patrat2.png" alt="Vue" />
+        <img class="back-face" src="game/img/js-badge.svg" alt="JS Badge" />
+      </div>
+  
+      <div class="memory-card" data-framework="angular">
+        <img class="front-face" src="game/circlepng.png" alt="Angular" />
+        <img class="back-face" src="game/img/js-badge.svg" alt="JS Badge" />
+      </div>
+      <div class="memory-card" data-framework="angular">
+        <img class="front-face" src="game/cerc2.png" alt="Angular" />
+        <img class="back-face" src="game/img/js-badge.svg" alt="JS Badge" />
+      </div>
+  
+      <div class="memory-card" data-framework="ember">
+        <img class="front-face" src="game/trapezoidpng.png" alt="Ember" />
+        <img class="back-face" src="game/img/js-badge.svg" alt="JS Badge" />
+      </div>
+      <div class="memory-card" data-framework="ember">
+        <img class="front-face" src="game/trapez2.png" alt="Ember" />
+        <img class="back-face" src="game/img/js-badge.svg" alt="JS Badge" />
+      </div>
+  
+      <div class="memory-card" data-framework="backbone">
+        <img class="front-face" src="game/trianglepng.png" alt="Backbone" />
+        <img class="back-face" src="game/img/js-badge.svg" alt="JS Badge" />
+      </div>
+      <div class="memory-card" data-framework="backbone">
+        <img class="front-face" src="game/triunghi1.png" alt="Backbone" />
+        <img class="back-face" src="game/img/js-badge.svg" alt="JS Badge" />
+      </div>
+  
+      <div class="memory-card" data-framework="react">
+        <img class="front-face" src="game/rectanglepng.png" alt="React" />
+        <img class="back-face" src="game/img/js-badge.svg" alt="JS Badge" />
+      </div>
+      <div class="memory-card" data-framework="react">
+        <img class="front-face" src="game/dreptunghi2.png" alt="React" />
+        <img class="back-face" src="game/img/js-badge.svg" alt="JS Badge" />
+      </div>
+    </section>
+  
+    <script src="game/scripts.js"></script>
+  </body>
+  </html>
+  
+  
+
+    
+</div>
+
+</body>
+</html>
