@@ -1,0 +1,1437 @@
+﻿1. Marcati caracteristici ale unei arhitecturi UMA (Uniform Memory Access).
+
+Alegeți una sau mai multe opțiuni:
+
+a. Timpi de acces egali pentru procesoare la celulele de memorie partajate
+b. Timpi de acces diferiti la celule de memorie
+c. Gestioneaza spatii de adrese individuale pentru fiecare nod
+d. Gestioneaza un spatiu de adrese partajat
+
+raspuns: b,d / a
+----------------
+
+----------------
+2. Transparenta migratiei presupune:
+
+Alegeți o opțiune:
+a. nicio cunoastere a locatiei a vreunei componente nu este necesara, in special locul nu face parte din nume
+b. interfata de utilizator este independenta de numarul de copii ale unei componente, disponibilitatea ca proprietate calitativa poate fi imbunatatita
+c. componenta poate fi mutată fara ca interfata cu utilizatorii sa se schimbe
+d. forma de acces este independenta indiferent daca componenta este locala sau de la distanta
+
+raspuns: b / c
+----------------
+
+----------------
+3. In modelul client-server care dintre componente initializeaza conexiunea?
+
+Alegeți o opțiune:
+a. Serverul
+b. Clientul
+c. Atat clientul cat si serverul
+d. Oricare
+
+raspuns: b
+----------------
+
+----------------
+4. Care dintre urmatoarele sunt componente ale modelului de activitati al unei arhitecturi middleware?
+
+Alegeți una sau mai multe opțiuni:
+a. sincronizare
+b. sablon de interactiune intre componente
+c. actori
+d. componentele ce comunica
+
+raspuns: a, b, d / c,b,d,a
+----------------
+
+----------------
+5. Ce elemente fac parte din microkernel?
+
+Alegeți una sau mai multe opțiuni:
+a. Gestionarul executiei in timp real (Real Time Executive)
+b. Gestionarul comunicarii intre procese (IPC Manager)
+c. Supervizorul (Supervisor)
+d. Gestionarul memorii virtuale (Virtual Memory manager)
+
+raspuns: b, c, d / a,b,c,d
+----------------
+
+----------------
+6. Indicati arhitecturile de organizare a memoriei propuse de Rashid.
+
+Alegeți o opțiune:
+a. UMA, NUMA, NORMA
+b. SISD, MISD, MIMD
+c. UMA, MISD, MIMD
+d. UMA, SISD, NUMA
+
+raspuns: a
+----------------
+
+----------------
+7. Avantajele adresarii indirecte sunt:
+
+Alegeți una sau mai multe opțiuni:
+a. Posibilitatile de alocare extinsa ale expeditorilor si receptorilor
+b. Modularitate imbunatatita
+c. Denumirea este explicita si simetrica
+d. Partenerii de comunicare au adrese unice
+
+raspuns: b c d / b,a
+----------------
+
+----------------
+8. Care sunt elemente importante ale comunicării?
+
+Alegeți una sau mai multe opțiuni:
+a. Zone tampon (buffer)
+b. Sincronizare
+c. Structura mesajului
+d. Schema de adresare
+
+raspuns: a c d / b,c
+----------------
+
+----------------
+9. Care este semnificația acronimului UUID?
+
+Alegeți o opțiune:
+a. Undesrtandable Unique Identifier
+b. Unstacked Universal Identifier
+c. Universal Unique Identifier
+d. Unique Unsigned Identifier
+
+raspuns: c
+
+----------------
+
+----------------
+10. Un protocol este compus din: set de reguli, format, conținut si semnificație de mesaje intre partenerii de comunicare?
+
+Selectați o opțiune:
+Adevărat
+Fals
+
+raspuns: Adevărat
+
+----------------
+
+----------------
+11. Ce tipuri de transparență există într-un sistem paralele distribuit (multicomputer paralel) ?
+
+Alegeți una sau mai multe opțiuni:
+a. transparența replicarii și transparența erorilor
+b. transparența la migrare și la replicare
+c. transparența concurenței și transparența paralelismului
+d. transparența locației și transparența asupra modului de accesare al componenței
+
+raspuns: a b c d -- asta am gasit
+
+----------------
+
+----------------
+12. CORBA reprezinta:
+
+Alegeți o opțiune:
+a. Common Object Request Broker Architecture
+b. Common Object Response Broker Architecture
+c. Common Object Response Bank Architecture
+d. Common Object Request Bank Architecture
+
+raspuns: a  --- Corect!!
+
+----------------
+
+----------------
+13. Serviciile de tip SOAP ofera:
+
+Alegeți una sau mai multe opțiuni:
+a. Interoperabilitate mai scazuta decat celelalte servicii.
+b. o mai bună calitate a serviciilor decât serviciile REST 
+c. mai multa securitate decat serviciile REST
+d. o mai bună calitate a serviciilor si interoperabilitate decât serviciile REST 
+
+raspuns: a b c d
+
+----------------
+
+----------------
+14. In sistemele de operare distribuite cuplajul slab asigura:
+
+Alegeți una sau mai multe opțiuni:
+a. ortogonalitate
+b. o mai mare autonomie a componentelor
+c. invizibilitatea unei proprietati a unui sistem multi-calculator
+d. simplificarea manipularii/programarii sistemului 
+
+raspuns: a, b - asta am gasit
+
+----------------
+
+----------------
+15. NOS (Network Operating System) include functii specifice cu privire la:
+
+Alegeți una sau mai multe opțiuni:
+a. rularea de la distanta a programelor
+b. transparenta nodurilor obisnuite (fara suport pentru distributie)
+c. protectie (gestionarea utilizatorilor)
+d. sistemul de fisiere
+
+raspuns: a c d  --- corect!!
+
+----------------
+
+----------------
+16. Care sunt caracteristici ale sistemului multicomputer?
+
+Alegeți una sau mai multe opțiuni:
+a. Ofera scalabilitate pentru un număr mare de procesoare.
+b. Un sistem de calcul MIMD cu aceleași tip de cuplare pentru procesoare identice este un sistem multicomputer sau sistem multiprocesor.
+c. Modelul de bază de comunicare este transmiterea mesajelor.
+d. Un sistem care nu are proprietati NORMA (No Remote Memory Access).
+
+raspuns: a b c  -- CORECT!!	
+
+----------------
+
+----------------
+17. Care dintre următoarele protocoale fac parte din nivelul transport al modelui TCP/IP?
+
+Alegeți una sau mai multe opțiuni:
+a. HTTP (Hypertext Transfer Protocol)
+b. IP (Internet Protocol)
+c. UDP (User Datagram Protocol)
+d. TCP (Transmission Control Protocol)
+
+raspuns: c d -- corect!!
+
+----------------
+
+----------------
+18. Proprietati ale sistemelor de operare distribuite
+
+Alegeți una sau mai multe opțiuni:
+a. asigura proprietati de transparenta prin implemntarea unor algoritmi pentru controlul distribuit
+b. ofera utilizatorilor o imagine consistenta asupra sistemului de calcul
+c. sistemului de operare este primul program încarcat în memoria calculatorului si ramâne activ pe toata durata functionarii calculatorului/sistemului distribuit
+d. este un ansamblu de programe care are rolul de a gestiona si de a facilita utilizatorului accesul la resursele sistemului de calcul
+
+raspuns: a b c d
+
+----------------
+
+----------------
+19. Care dintre următoarele afirmații referitoare la socketuri sunt corecte?
+
+Alegeți una sau mai multe opțiuni:
+a. Pentru comunicarea mai multor componente software într-un sistem distribuit este suficient si necesar un singur port
+b. Un socket este identificat unic printr-un numar de socket (port)
+c. Socketul reprezintă o singură conexiune între exact două componente software
+d. Interfețele de programare (API) ale socketurilor pot fi împărțite în 3 categorii: stream socket, datagram socket și raw socket
+
+
+raspuns: b d
+
+----------------
+
+----------------
+20. Care dintre urmatoarele sunt exemple de sisteme de operare in retea (NOS) ?
+
+Alegeți una sau mai multe opțiuni:
+a. DOS
+b. IBM MVS
+c. Novell NetWare
+d. Windows for Workgroups
+
+raspuns: c, d  --- CORECT!!
+
+----------------
+21. API Socket. Funcția connect() execută:
+
+Alegeți o opțiune:
+a. Realizarea unei conexiuni
+b. Așteptarea request-ului de conexiune
+c. Pregătirea socket-ului pentru acceptarea clienților
+d. Atribuirea unui nume respectiv a unei adrese pentru socket
+
+Raspuns:
+Anterior: a
+
+22. Exemple de adresare indirecta:
+
+Alegeți una sau mai multe opțiuni:
+a. posta electronica
+b. chat
+c. posta
+d. server de baze de date
+
+Raspuns: a
+Anterior: a, c
+
+23. Pe ce se bazeaza Java Message Service API (JMS) ?
+
+Alegeți una sau mai multe opțiuni:
+a. Interfață de programare pentru controlul unui Middleware orientat pe mesaje (MOM) bazat pe Java (J2EE)
+b. Comunicare asincronă și fiabilă
+c. Componenta server trebuie să implementeze acest API
+d. Open Source și implementări comerciale
+
+Raspuns: a, b
+Anterior: a, b, c, d
+
+24. Din ce motive este folosit un server Proxy?
+
+Alegeți una sau mai multe opțiuni:
+a. Pentru a schimba gradul de specializare al modelului middleware
+b. Functionalitati de tip cache
+c. Securitate imbunatatita
+d. Viteza mai mare intre client si server
+
+Raspuns: b
+Anterior: a, c
+
+25. La adresarea directa:
+
+Alegeți una sau mai multe opțiuni:
+a. partenerii de comunicare au adrese fixe
+b. destinatarul trebuie sa denumeasca expeditorul in mod explicit
+c. expeditorul trebuie sa denumeasca destinatarul in mod explicit
+d. expeditorul si destinatarul sunt denumiti implicit
+
+Raspuns: a, b, c
+Anterior: b, c, d
+
+26. Sistemele NUMA (Non-Uniform Memory Access) au urmatoarele caracteristici:
+
+Alegeți una sau mai multe opțiuni:
+a. nu folosesc spatiu de adresare comun
+b. sunt un tip de sisteme SISD (Single Instruction Stream / Single Data Stream)
+c. se foloseste spatiu de adresare comun
+d. sunt denumite si DSM (Distributed Shared Memory)
+
+Raspuns: c, d
+Anterior: b, c, d
+
+27. Ce avantaje are adresarea indirecta?
+
+Alegeți una sau mai multe opțiuni:
+a. partenerii de comunicare au adrese unice
+b. optiuni extinse de stabilire emitatori si receptori, cum ar fi m:1, 1:n, m:n
+c. modularitate imbunatatita
+d. numarul partenerilor poate fi restructurat in mod transparent, de exemplu dupa esecul unei parti
+
+Raspuns: b, c, d
+Anterior: a, b, c, d
+
+28. De la ce provine acronimul UMA?
+
+
+Alegeți o opțiune:
+a. Uniform Memory Access
+b. Uniform Minimal Access
+c. Unity Memory Access
+d. Unity Minimal Access
+
+Raspuns: a
+Anterior: a
+
+29. Care sunt avantajele ale unei arhitecturi orientate pe servicii?
+
+Alegeți una sau mai multe opțiuni:
+a. performanță mai slabă
+b. creșterea efortului pentru integrare și tratare erori
+c. flexibilitate pentru modificările necesare, întreținerea serviciilor si schimbarea intre ele
+d. eficacitate ridicata
+
+Raspuns: c, d
+Anterior: a, b, c
+
+30. Identificati o functie a algoritmului de sincronizare a cesurilor a lui Christian?
+
+Alegeți o opțiune:
+a. Sa verifice lungimea mesajului
+b. Sa masoare si sa ia in considerare durata media a unui roundtrip (durata transmitere cu receptionarea a cererii si raspunsului)
+c. Sa verifice conexiunea clientului
+d. Sa verifice conexiunea serverului
+
+Raspuns: b
+Anterior: b
+
+31. Ce dezavantaje are protocolul 2PC (commit in doua faze) in cazul arhitecturilor orientate pe servicii? (??)
+
+Alegeți una sau mai multe opțiuni:
+a. Nu exista probleme in cazul proceselor de durata
+b. Necesită ca toate sistemele și serviciile participante sa fie disponibile
+c. 2PC nu implică cuplarea liberă
+d. Doar primele n părți ale unei tranzacții distribuite sunt executate
+
+raspuns: b c d
+
+32. Care este un avantaj al arhitecturii de partajare a memoriei NUMA?
+
+Alegeți o opțiune:
+a. Se menține modelul de programare cu memorie partajate, iar plasarea datelor pentru atingerea unui nivel ridicat de acces local nu este importantă
+b. Se menține modelul de programare cu memorie partajate, chiar dacă plasarea datelor pentru atingerea unui nivel ridicat de acces local rămâne importantă
+c. Se menține modelul de programare cu memorie partajate, chiar dacă plasarea datelor pentru atingerea unui nivel ridicat de acces local nu are loc
+d. Nu se menține modelul de programare cu memorie partajate, iar plasarea datelor pentru atingerea unui nivel ridicat de acces local rămâne importantă
+
+raspuns: b
+
+33. Clasificarea arhitecturilor de calculatoare de tipul MIMD conform Rashid (1986). 
+
+Care dintre urmatoarele clase apartin acestei clasificări?
+
+Alegeți una sau mai multe opțiuni:
+a. UMA (Uniform Memory Access):
+- Spațiu comun de adrese (cuplare strânsă).
+- Timpi de acces identici ale tuturor procesoarelor la toate celulele de memorie.
+b. NORMA (Fără are acces la memorie la distanță):
+- nu există spațiu de adresă partajat accesibil global(cuplaj slab).
+- accesul la distanta este posibil doar indirect prin mesaje.
+c. NUMA (Acces neuniform al memoriei):
+- Spațiu de adrese partajat dar distribuit (cuplaj slab), prin urmare, acces la memorie „la distanță”.
+- Timpi de acces diferiti la celulele de memorie în funcție de procesor.
+- De asemenea, cunoscut sub numele de memorie partajată distribuită (DSM).
+d. NOS (sistem de operare in retea)
+- acces uniform la memoria calculatoarelor din retea 
+
+raspuns:
+ a b c
+
+
+34. Care dintre urmatoarele afirmatii sunt adevarate despre fragmentarea datelor in retelele de comunicatie? (??)
+
+Alegeți una sau mai multe opțiuni:
+a. reprezinta impartirea unui pachet in fragmente, fiecare cu antetul IP propriu, pentru transportul in retea
+b. nu este posibil transportul in retea al unor fragmente individuale
+c. reprezinta evitarea impartirii unui pachet in fragmente, pentru a fi transportat in retea
+d. fragmentele de date individuale pot fi transportate in retea
+
+raspuns: a c d
+
+35. Care sunt caracteristici ale serviciilor web REST?
+
+Alegeți una sau mai multe opțiuni:
+a. Stateless
+b. Cache
+c. Resursele sunt accesibile prin intermediul unei adrese URL
+d. Sunt orientate pe niveluri
+
+raspuns: a b c d
+
+
+36. La ce se refera transparenta de acces ?
+
+Alegeți o opțiune:
+a. Daca o resursa este replicata in mai multe locatii, un utilizator ar trebui sa o vada ca o singura resura
+b. Locatia unei resurse nu trebuie sa fie cunoscuta de utilizator
+c. Utilizatorul nu trebuie sa stie daca o resursa se afla in memoria volatila sau permanenta
+d. Modul de accesare al unei resurse este acelasi, chiar daca componentele sunt locale sau se afla la distanta
+
+raspuns: d
+
+
+37. Cum se asigura scalabilitatea unei arhitecturi software? (??)
+
+Alegeți una sau mai multe opțiuni:
+a. Divizarea unui serviciu in functie de tipurile de consumatori de servicii
+b. Crearea de servicii cu interfață simplă și dependențe puține 
+c. Clonarea serviciilor
+d. Divizarea unui serviciu in sub-servicii specializate
+
+raspuns: a b c d
+
+
+38. In cadrul adresarii directe:
+
+Alegeți una sau mai multe opțiuni:
+a. Nici un raspuns nu este corect
+b. Denumirea este explicita si simetrica
+c. Parteneri de comunicare au adrese unice
+d. Comunicarea se face prin intermediar
+
+raspuns: b c
+
+
+39. Care dintre următoarele afirmații despre arhitectura middleware orientată pe mesaje sunt corecte?
+
+Alegeți una sau mai multe opțiuni:
+a. Este folosita doar la implementari paralele
+b. Repezintă o infrastructură care accepta primirea și trimiterea de mesaje intre aplicațiile distribuite
+c. Este disponibila pe milte dintre sistemele de operare
+d. De obicei, face prelucrare sincronă
+
+raspuns: b c
+
+
+40. Care dintre afirmațiile de mai jos sunt aplicabile pentru Datagram Socket-uri (SOCK_DGRAM)?
+
+Alegeți una sau mai multe opțiuni:
+a. Comunicarea nefiabilă a mesajelor unice (livrare best-effort)
+b. Serviciu de transport fără conexiune bazat pe datagrame
+c. Servicii de transport orientate spre conexiune
+d. În cazul socket-urilor Internet, protocolul implicit utilizat este TCP
+
+raspuns: a
+
+41. Ce reprezinta o arhitectura MIMD?
+
+Alegeți o opțiune:
+a. flux unic de intructiuni/flux unic de date
+b. fluxuri multiple de instructiuni/flux unic de date
+c. fluxuri multiple de instructiuni/fluxuri multiple de date
+d. flux de instructiuni unic/fluxuri multiple de date
+
+raspuns: c
+
+----------------
+
+----------------
+42. Clasificarea arhitecturilor de calculatoare conform Flynn (1972). Care dintre urmatoarele clase sun tidentificate de taxonomia Flynn?
+
+Alegeți una sau mai multe opțiuni:
+a. MIMD
+Fluxuri de instrucțiuni multiple / Fluxuri de date multiple
+Sisteme cu mai multe procesoare paralele strâns sau slab cuplate și sisteme de calcul distribuite.
+b. MISD 
+Fluxuri de instrucțiuni multiple / Flux de date unic
+Este considerat ca fiind o categorie fara exemple concrete de majoritatea autorilor.
+c. SISD 
+Flux de instrucțiuni unic / Flux de date unic
+Procesator secvențial (scalar) tradițional.
+d. SIMD
+Flux de instrucțiuni unic / Fluxuri de date multiple
+Calculator vectorial - executarea unei instrucțiuni în paralel pe mai multe elemente ale vectorului77.
+
+vraspuns: all
+
+----------------
+
+----------------
+43. Care sunt avantajele implementării micronucleului  (microkernelului)?
+
+Alegeți una sau mai multe opțiuni:
+a. posiblitatea specializării
+b. compatibilitatea cu mai multe sisteme de operare
+c. performanță sporită a sistemelor
+d. extensibilitatea și transparența rețelei
+
+raspuns: a,b,d
+
+----------------
+
+----------------
+44. Marcati caracteristici pentru sisteme multicomputer. 
+
+Alegeți una sau mai multe opțiuni:
+a. Suportă algoritmi de procesare masivă în paralel (MPP)v
+b. Tipul rețelelor de interconectare nu poate fi LAN, MAN, WAN.
+c. Oferă pentru un număr mare de computere (> 1024).
+d. Utilizează modele de programare bazate pe de transmiterea mesajelor
+
+raspuns: a,c,d
+
+----------------
+
+----------------
+45. Ce este un sistem de operare distribuit?
+
+Alegeți o opțiune:
+a. este un pachet de programe software care virtualizeaza o colectie de noduri computationale hardware independente
+b. un sistem care furnizeaza servicii de retea
+c. un sistem de operare care evita suprasolicitarea resurselor hardware si software
+d. un program care implementeaza proprietati de flexibilitate si scalare
+
+raspuns: a 
+
+----------------
+
+----------------
+46. Indicati modele de comunicare:
+
+Alegeți una sau mai multe opțiuni:
+a. publisher/subscriber
+b. memorie partajata
+c. request/response
+d. request/response asincron
+
+raspuns: a b c d
+
+----------------
+
+----------------
+47. Care dintre urmatoarele functii sunt implementate de sistemul de operare?
+
+Alegeți una sau mai multe opțiuni:
+a. memorie partajata distribuita
+b. duplicarea spatiului de adrese
+c. comunicarea intre procese
+d. mecanisme adresare memorie partajata
+
+raspuns: a c d
+
+----------------
+
+----------------
+48. Indicati o proprietate a sistemelor multicomputer.
+
+Alegeți o opțiune:
+a. evita problemele de coerenta a cache-ului prin programarea explicita orientata catre mesaje
+b. nu permit programarea paralela
+c. modelele de programare nu sunt bazate pe transmitere de mesaje
+d. ofera suport pentru un numar mic de calculatoare
+
+raspuns: a
+
+----------------
+
+----------------
+49. Alegeți variantele corecte pentru clase de arhitecturi ale sistemelor de operare.
+
+Alegeți una sau mai multe opțiuni:
+a. NOS este un acronim pentru Network Operating System
+b. DOS înseamnă Distributed Operating System
+c. Un exemplu de sistem de operare distribuit este MS-DOS (Microsoft Disk Operating System)
+d. Un LOS este un sistem de operare local distribuit
+
+raspuns: a b d
+
+----------------
+
+----------------
+50. Care dintre urmatoarele nu este un tip valid de transparenta?
+
+
+Alegeți o opțiune:
+a.
+Transparenta de raspuns
+b.
+Transparenta de paralelizare
+c.
+Transparenta de securitatev
+d.
+Transparenta de migrare
+
+raspuns: c
+
+----------------
+
+----------------
+51. Care dintre următoarele variante sunt principalele modele de structuri pentru aplicații complexe?
+
+Alegeți una sau mai multe opțiuni:
+a. Modelul Multi-Task
+b. Modelul Multi-Tier
+c. Modelul Client-Server
+d. Modelul P2P
+
+raspuns: b c d
+edu : a b c
+
+52. Marcati componente care alcatuiesc arhitectura Client/Server.
+
+Alegeți una sau mai multe opțiuni:
+a. Calculatorul client
+b. Arhitectura logica a retelei
+c. Calculatorul server
+d. Logica aplicatiei
+
+raspuns: a c 
+edu : all
+
+
+53. RPC: Care sunt avantajele unui Broker?
+
+Alegeți una sau mai multe opțiuni:
+a. Este flexibil
+b. Poate fi folosit la echilibrarea sarcinii între servere echivalente
+c. Poate îngloba mai multe servere de același fel
+d. Este fiabil la client și servere pe durată scurtă
+
+raspuns : ????????????????????????????????????????????????????????????????????????????????????????????????
+edu: b c 
+
+
+54. La primirea unui fragment dintr-un pachet, se porneste un timer (ex. 30 de secunde). Daca nu sosesc toate fragmentele unui pachet pana la terminarea timpului, se renunta la toate fragmentele primite. Acest proces este legat de termenul de:
+
+Alegeți o opțiune:
+a. Fragment-Offset
+b. Best-effort
+c. Reassembly
+d. IP-Routing
+
+raspuns: b
+edu :b 
+
+
+
+55. Marcati avantajele ale sistemelor de operare distribuite.
+
+Alegeți una sau mai multe opțiuni:
+a. Fac dificila administrarea bazelor de date instalate pe acestea
+b. Ofera performanta crescuta in comparatie cu sistemele monolitice
+c. Suprasolitica utilizarea anumitor tipuri de resurse
+d. Permite adaugarea usoara de resurse suplimentare
+
+raspuns b, d
+edu: b c d
+
+
+56. Indicati tipuri de NOS (curs 2 )
+
+Alegeți una sau mai multe opțiuni:
+a. Modelul OSI
+b. Modelul client-server
+c. Modelul centralizat
+d. Modelul peer-to-peer
+
+edu : all
+raspuns: b d
+
+
+57. Marcati caracteristici ale sistemelor MIMD:
+
+Alegeți una sau mai multe opțiuni:
+a. permit rularea paralelă a unei instrucțiuni pe mai multe elemente vectoriale
+b. permit rularea de instructiuni multiple pe multiple fluxuri de date
+c. implementeaza tehnici de exploatare a paralelismului datelor și instrucțiunilor
+d. reprezintă una dintre arhitecturile hardware distribuite menționate în taxonomia lui Flynn
+
+edu : all
+raspuns: a ??????????????????????????????????????????????????
+
+
+58. Rutarea IP are urmatoarele proprietati:
+
+Alegeți una sau mai multe opțiuni:
+a. adaptiva
+b. distribuita
+c. neflexibila
+d. dinamica
+ 
+edu: b d
+raspuns : a b d 100%
+
+
+59. Care dintre următoarele fenomene se pot petrece pe un mediu de comunicație? (Atenție: Toate fenomenele dintr-o  variantă de răspuns trebuie să și existe, pentru ca acea varinată să fie corectă.)
+
+Alegeți una sau mai multe opțiuni:
+a. propagarea, zgomotul, reflectarea semnalului
+b. atenuarea, dispersia, întârzierea
+c. propagarea, întârzierea, coliziunea
+d. dispersia, rezonanța, reflectarea semnalului
+
+raspuns: a b d
+eu :a b c 
+
+60. Care sunt avantajele pentru cuplarea stransa? (enge Kopplung)
+
+
+Alegeți una sau mai multe opțiuni:
+a.
+limitarea scalabilitatii
+b.
+complexitate hardware
+c.
+comunicare eficienta
+d. simplitate
+
+edu: a c d
+raspuns : c, d
+
+
+----------------
+
+----------------
+61. Ce se intampla daca un server devine clientul unui alt server in timpul procesarii?
+
+Alegeți o opțiune:
+a. intregul server este blocat
+b. procesarea nu mai are loc
+c. apare un deadlock
+d. serverul devenit client asteapta ca celalalt server sa raspunda
+
+raspuns: d
+
+----------------
+
+----------------
+62. Care dintre urmatoarele afirmatii despre transparenta de eroare sunt adevarate ?
+
+
+Alegeți una sau mai multe opțiuni:
+a.
+In cazul in care apare o eroare, utilizatorul trebuie sa fie capabil sa isi continue treaba
+b.
+In cazul in care apare o eroare, aceasta va fi tratata de sistem, fara ca utilizatorul sa stie
+c.
+In cazul in care apare o eroare, acesata va fi raportata imediat utilizatorului
+d.
+In cazul in care apare o eroare, accesul la sistem va fi blocat
+
+raspuns: b c / b
+
+----------------
+
+----------------
+63. Care dintre urmatoarele afirmatii despre transparenta de locatie este adevarata?
+
+
+Alegeți o opțiune:
+a.
+Daca locatia unei resurse se schimba in timp ce este folosita, un utilizator nu trebuie sa fie constient de acest lucru
+b.
+Daca o resursa este replicata in mai multe locatii, un utilizator ar trebui sa o vada ca o singura resursa
+c.
+Utilizatorii unui sistem distribuit nu trebuie sa cunoasca locatia fizica a unei resurse folosite
+d.
+Daca o resursa este accesata de mai multi utilizatori in acelasi timp, utilizatorii nu trebuie sa fie constienti de acest lucru
+
+raspuns: b          /
+proposition: a/b   / c
+
+----------------
+
+----------------
+64. Ce este un sistem de operare in retea, NOS (Network Operating System)?
+
+
+Alegeți o opțiune:
+a. O extensie a sistemului de operare care se ocupa de managementul resurselor de retea.
+b. Un sistem de operare pentru dispozitivele de retea.
+c. Un sistem de operare uzual al nodurilor de retea fără suport pentru distribuirea de calcule.
+d. Este o extensie pentru diferite sisteme de operare locale (LOS) ce ofera facilitati pentru operarea cu mai multe computere, care indeplineste anumite functii.
+
+raspuns: b / d
+
+----------------
+
+----------------
+65. Marcati componente ale sistemelor de operare.
+
+Alegeți una sau mai multe opțiuni:
+a. componenta IPC - Inter Process Communication (comunicarea intre procese)
+b. componenta de gestiune a memoriei partajate
+c. componenta pentru partajarea de memorie intre spatiile de adrese
+d. componenta pentru manipularea fisierelor I/O si maparea de fisiere
+
+raspuns: a b c
+
+----------------
+
+----------------
+66. Care dintre urmatoarele nu este o componenta sau implemenatre a unei platforme arhitecturale de tipul Common Object Request Broker?
+
+Alegeți o opțiune:
+a. IONA Orbix
+b. THC Hydra
+c. BEA Weblogic
+d. Jac ORB
+
+raspuns: b
+
+----------------
+
+----------------
+67. Care sunt dezavantajele algortimului lui Christian?
+Alegeți una sau mai multe opțiuni:
+a. Oscilatiile timpilor de citire a cererilor de sincronizare
+b. Oscilatiile duratelor de shimbare a mesajelor
+c. Ceasul se poate invarti "invers"
+d. Nu se contorizeaza timpul
+
+raspuns: a b d / c,b
+
+----------------
+
+----------------
+68. Alegeți sirurile ordonate în care tipurile de rețele sunt dispuse crescator in functie de distanta de raspandire geografica a acestora.
+
+Alegeți una sau mai multe opțiuni:
+a. LAN, PAN, Internet
+b. LAN, MAN, Internet
+c. MAN, LAN, WAN
+d. PAN, MAN, WAN
+
+raspuns: a b d / d
+
+----------------
+
+----------------
+69. Despre doua procesoare care nu sunt strans cuplate putem afirma ca:
+
+Alegeți una sau mai multe opțiuni:
+a. pot comunica doar prin transmiterea de mesaje
+b. partajeaza o memorie ﬁzica comuna
+c. in engleza, se numesc tightly coupled
+d. se numesc slab cuplate (loosely coupled)
+
+raspuns: b c / b,d
+
+----------------
+
+----------------
+70. Un canal se numeste directional sau unidirectional daca:
+
+Alegeți o opțiune:
+a. ambele procese indeplinesc rolul de emitator
+b. un proces indeplineste doar rolul de emitator, celalalt doar rolul de receptor
+c. este non-directional sau bidirectional
+d. ambele procese au rolul de receptor
+ 
+raspuns: a / b
+
+----------------
+
+----------------
+
+71. Indicati diferente intre un sistem multiprocesor si un sistem multicomputer
+
+Alegeți una sau mai multe opțiuni:
+a. aspectul principal al unui sistem multiprocesor este programabilitatea usoara, pe de alta parte apectul principal al unui un sistem multicomputer este scalabilitatea pentru un numar mare de procesoare
+b. modelul de baza de comunicare intr-un sistem multiprocesor este partajarea memoriei (memory sharing), iar cel dintr-un sistem multicomputer este transmiterea mesajelor (message passing).
+c. sistemul multiprocesor este un sistem de calcul MIMD cu procesoare identice strans cuplate; un sistem multicomputer (sau poliprocesor) este un sistem de calcul MIMD cu procesoare identice slab cuplate
+d. un sistem multiprocesor poate avea proprietati UMA sau NUMA pe cand un sistem multicomputer are doar proprietati NUMA
+
+raspuns: all
+
+----------------
+
+----------------
+72. O arhitectura middleware orientată pe servicii este:
+
+Alegeți o opțiune:
+a. Remote procedure call (RPC) middleware
+b. Object middleware
+c. Service-oriented architecture pattern
+d. Message oriented middleware
+
+raspuns: d
+
+----------------
+
+----------------
+73. Care este ordinea în care se execută operațiile într-un sistem RPC la trimiterea unui mesaj de la client către server?
+
+1 Stub-ul serverului decuplează parametrii din mesaj. Despachetarea/dezambalarea parametrilor se numește unmarshalling
+2 Sistemul de operare local al clientului trimite mesajul de la mașina client către mașina server.
+3 Sistemul de operare local de pe mașina serverului transmite pachetele de intrare în stub-ul serverului.
+4 Stub-ul clientului împachetează parametrii într-un mesaj și face un apel de sistem pentru a trimite mesajul. Împachetarea parametrilor se numește marshalling.
+5 Stub-ul serverului apelează procedura serverului
+6 Stub-ul serverului decuplează parametrii din mesaj. Despachetarea/dezambalarea parametrilor se numește unmarshalling
+
+----------------
+
+----------------
+74. Care sunt funcții specifice unei interfețe Broker?
+
+Alegeți una sau mai multe opțiuni:
+a. Deregister
+b. Register
+c. Map
+d. Lookup
+
+raspuns: all
+
+----------------
+
+----------------
+75. Printre caracteristicile protocolului UDP sunt:
+
+Alegeți una sau mai multe opțiuni:
+a. Adresarea utilizatorilor prin numere de port pe 16 biti  
+b. Capacitate multicast / broadcast (comunicare 1:n) 
+c. Date urgente si functie push pentru date prioritare
+d. Protocol neorientat conexiune 
+
+raspuns: a b d 
+
+
+----------------
+
+----------------
+76. Caracteristici pentru raw sockets (SOCK_RAW):
+
+Alegeți una sau mai multe opțiuni:
+a. Permit accesul la protocoale subordonate precum IP, ICMP.
+b. Serviciu de transport orientat conexiune
+c. Comunicarea fiabila a mesajelor unice (livrare folosind metoda cel mai bun efort)
+d. Nu este retransmis mai departe
+
+raspuns: a b c
+
+----------------
+
+----------------
+77. Care dintre următoarele clase de sisteme nu au un spațiu comun de adrese?
+
+Alegeți o opțiune:
+a. NORMA (NO Remote Memory Access)
+b. NUMA (Non-Uniform Memory Access)
+c. UMA (Uniform Memory Access)
+d. CMA (Continuous Memory Access)
+
+raspuns: c
+
+----------------
+
+----------------
+78. Pentru calculatoarele-destinatie din aceeasi retea, modulul IP determina adresele Hardware-MAC ale acestora. Ce protocol utilizeaza modulul IP pentru acest scop?
+
+Alegeți o opțiune:
+a. HTTP
+b. TCP
+c. SMTP
+d. ARP
+ 
+raspuns: d
+
+----------------
+
+----------------
+79. Ce tipuri de erori preintampinate exista intr-un sistem distribuit?
+
+Alegeți una sau mai multe opțiuni:
+a. Erori grave
+b. Erori identificate dar inevitabile
+c. Erori neasteptate
+d. Erorile evitate
+
+raspuns: b c
+
+----------------
+
+----------------
+80. Alegeți varianta/variantele corectă/e referitoare la clasificarea mediilor de retea in funcție de transmiterea semnalului.
+
+Alegeți una sau mai multe opțiuni:
+a. medii unidirecţionale: se poate doar transmite sau doar recepţiona semnal
+b. medii half-duplex: la un moment dat se poate doar transmite sau receptiona semnalul
+c. medii bidirecţionale:  la un moment dat se poate doar transmite sau receptiona semnalul
+d. medii full-duplex: suportă emiterea şi receptarea simultană a semnalului
+
+raspuns: all
+
+----------------
+
+
+81. Care dintre urmatoarele sunt platforme Java pentru comunicare asincrona?
+
+Alegeți una sau mai multe opțiuni:
+a. JMS
+b. API
+c. AMQP
+d. MQTT
+
+raspuns: a c d
+----------------
+
+----------------
+82. Componente ale modelului structural sunt:
+
+Alegeți una sau mai multe opțiuni:
+a. componente auxiliare
+b. denumirea și adresa componentelor
+c. actori
+d. unitățile distribuibile (componentele programului)
+
+raspuns: a b d
+----------------
+
+83. Indicati componente ale unui sistem (de operare) distribuit.
+
+Alegeți una sau mai multe opțiuni:
+a. memoria partajata
+b. declaratii abstracte de primitive microkernel
+c. componenta virtuala de gestiune a memoriei
+d. micronucleu (microkernel)
+
+raspuns: a c d
+----------------
+
+84. Cum se poate creste numărul de procesoare la 32-64 pentru un sistem multiprocesor bazat pe o ierarhie de magistrale de comunicare?
+
+
+Alegeți una sau mai multe opțiuni:
+a. prin utilizare de memorii proxy
+b. prin utilizare de memorii read-only
+c. prin utilizare de metode inteligente de asigurare a coerentei cacheului
+d. prin utilizarea memoriei cache
+
+raspuns: c d
+----------------
+
+85. Ce caracteristici are NUMA (Non-Uniform Memory Access)?
+
+Alegeți o opțiune:
+a. nici un spatiu de adrese comun
+b. spatiul de adrese partajat, dar distribuit
+c. toate variantele sunt corecte
+d. timpul de acces la memorie identic pentru toate procesoarele
+
+raspuns: d
+----------------
+
+86. Functia middleware-ului este:
+
+Alegeți o opțiune:
+a. reducerea costurilor de productie/dezvoltare
+b. reutilizarea (reutilizare software, componentware)
+c. sa implementeze solutii standard in loc de dezvoltare individuala
+d. sa fie un strat software standard ca platforma de distributie pentru integrarea componentelor programului distribuit
+
+raspuns: d
+----------------
+
+87. Prin capacitatea unui canal ne referim la:
+
+Alegeți o opțiune:
+a. numarul utilizatorilor raportat la viteza de download
+b. viteza de upload raportata la numarul de utilizatori
+c. viteza de download in Internet
+d. numarul de mesaje care pot fii stocate, pentru a putea deconecta expeditorul si destinatarul temporar
+
+raspuns: d
+----------------
+
+88. Indicati tipuri de transparenta in sistemele distribuite:
+
+Alegeți una sau mai multe opțiuni:
+a. Transparenta locatiei
+b. Transparenta erorilor
+c. Transparenta scalarii
+d. Transparenta accesului
+
+raspuns: a, b, d
+----------------
+
+89. Care dintre urmatoarele reprezinta caracteristici ale arhitecturii TCP / IP
+
+Alegeți una sau mai multe opțiuni:
+a. calcul dinamic al rutelor
+b. contine un set neuniform de aplicatii
+c. implementeaza protocol de transport cu caracteristici de backup end-to-end
+d. este reprezentat de 7 straturi de comunicare
+
+raspuns: a 
+----------------
+
+90. Marcati dezavantaje ale sistemelor de operare distribuite.
+
+Alegeți una sau mai multe opțiuni:
+a. Scade performanta de acces la bazele de date accesate de utilizatori aflati la distanta cand acestea sunt pe un nod specific
+b. Sunt sisteme de operare cu un singur utilizator
+c. Apar probleme de securitate la distribuire date si interconectare a nodurilor
+d. Resurse asemanatoare imprimantelor pot fi partajate intre multiple calculatoare
+
+raspuns: a d
+----------------
+----------------
+
+91. Daca toate componentele unui sistem sunt echivalente in functie de rolul lor in sistem, sistemul se numeste
+
+Alegeți o opțiune:
+a. asimetric
+b. hibrid
+c. simetric
+d. concurent
+
+raspuns: c simetric
+----------------
+
+92. Ce nivel al modelului OSI face legătura dintre nivelele care sunt orientate spre aplicație și cele care sunt orientate către rețea?
+
+Alegeți o opțiune:
+a. nivelul transport
+b. nivelul aplicație
+c. nivelul sesiune
+d. nivelul de legatură de date
+
+raspuns: a nivelul transport
+----------------
+
+93. In ce consta transparenta concurentei?
+
+
+Alegeți o opțiune:
+a. procesele concurente pot opera cu resurse partajate fara interferente
+b. procesele concurente pot opera cu resurse distribuite fara interferente
+c. procesele concurente nu pot opera cu resurse partajate fara sa nu interfere
+d. procesele concurente pot opera cu resurse partajate prin interferente
+
+raspuns: a
+
+----------------
+
+94. Care dintre urmatoarele afirmatii despre transparenta de replicare este/sunt adevarata/adevarate ?
+
+
+Alegeți una sau mai multe opțiuni:
+a.
+Modul de acces al unei resurse este independent de numarul de replici al acesteia
+b.
+Din motive de performanta, se poate sa exista mai multe copii ale unei resurse
+c.
+Fiecare resursa replicata are cel putin trei replici (copii)
+d.
+Chiar daca o resursa e replicata in mai multe locatii, utilizatorul o va vedea ca o singura resursa
+
+raspuns: a b
+
+----------------
+
+95. Care dintre următoarele reprezintă medii folosite pentru transferul datelor in rețele?
+
+Alegeți una sau mai multe opțiuni:
+a. fibra optică
+b. cablul coaxial
+c. aerul
+d. cablul STP, cablul UTP, cablul ScTP
+
+raspuns: all
+
+----------------
+
+96. Care este ordinea în care se execută operațiile într-un sistem RPC la trimiterea unui mesaj de la client către server?
+
+
+1)     Stub-ul clientului împachetează parametrii într-un mesaj și face un apel de sistem pentru a trimite mesajul. Împachetarea parametrilor se numește marshalling.
+
+2)     Sistemul de operare local de pe mașina serverului transmite pachetele de intrare în stub-ul serverului.
+
+
+3)     Clientul apelează stub-ul clientului. Apelul este un apel al unei proceduri locale, cu parametri puși pe stivă (în mod normal).
+
+4)     Stub-ul serverului decuplează parametrii din mesaj. Despachetarea/dezambalarea parametrilor se numește unmarshalling.
+
+5)     Sistemul de operare local al clientului trimite mesajul de la mașina client către mașina server. 
+
+6)     Stub-ul serverului apelează procedura serverului.
+
+
+Alegeți o opțiune:
+a. 3, 2, 5, 1, 6, 4
+b. 6, 1, 2, 3, 5, 4
+c. 3, 1, 5, 2, 4, 6
+d. 1, 2, 5, 3, 4, 6
+
+raspuns: a
+----------------
+
+97. Care dintre urmatoarele sunt arhitecturi bazate pe partajarea memoriei (shared memory)?
+
+
+Alegeți una sau mai multe opțiuni:
+a. Uniform mamory Access (UMA)
+b. Non-uniform memory access (NUMA/CC-NUMA)
+c. Virtual only memory access (VOMA)
+d. Cache only memory architecture (COMA)
+
+raspuns: a c d
+----------------
+
+98. In structura principiala a unui sistem de operare in retea se regasesc urmatoarele componente:
+
+
+Alegeți una sau mai multe opțiuni:
+a. DOS
+b. LOS
+c. NOS
+d. Hardware
+
+raspuns: a b
+----------------
+
+99. Caracteristica a procesului de rutare a pachetelor si scopul acestuia?
+
+Alegeți una sau mai multe opțiuni:
+a. descompunerea in fragmente cat mai mici a pachetelor trimise in retea
+b. procesul se bazeaza pe adrese IP
+c. se bazeaza pe identificarea dimensiunii pachetelor de transportat
+d. gasirea unui drum de la nodul-sursa la nodul-destinatie, pentru fiecare pachet trimis
+
+raspuns: a b d
+----------------
+
+100. Care sunt conditii de aparitie a interblocarii (deadlock) dupa Coffman?
+
+Alegeți una sau mai multe opțiuni:
+a. Resursele sunt utilizate exclusiv de către procesele ce le-au ocupat (excludere mutuala)
+b. Exista procese care cer resurse, dar păstrează în același timp altele ocupate (hold and wait)
+c. Accesul la resurse nu se poate face fortat - se pot elibera doar de procesul care a ocupat resursele (non-preemptiune)
+d. Cel puțin două procese sunt dependente circular prin resursele cerute (asteptare circulara)
+
+raspuns: Toate raspunsurile
+----------------
+
+
+----------------
+
+101. Cum poate creste numarul procesoarelor conectate la aceeasi magistrala care pot fi operate ?
+
+Alegeți o opțiune:
+a. prin introducerea memoriilor cache si a metodelor de coerenta inteligente a cache-ului
+b. prin proprietatile UMA date de arhitectura 1-bus
+c. prin folosirea crossbar switch-urilor
+d. prin folosirea de calculatoare server cu UNIX eterogene (de la producatori diferiti)
+
+RASPUNS: a
+anterior: b
+----------------
+
+102. Marcati probleme intalnite in ceea ce priveste adaptibilitatea ridicata a aplicatiilor IT.
+
+Alegeți una sau mai multe opțiuni:
+a. limbaje de programare
+b. sisteme de operare diferite
+c. interfete si protocoale
+d. paradigme de comunicare
+
+RASPUNS: a b c
+----------------
+
+103. Caracteristici ale gradului de specializare al arhitecturii Middleware.
+
+Alegeți una sau mai multe opțiuni:
+a. diferentiat
+b. are valori negative
+c. centrat catre o baza de date
+d. ia valori de la unu la trei pe o scara standard
+
+RASPUNS: a c
+anterior: a c d
+----------------
+
+104. Marcati prorpietati caracteristice ale unui sistem de operare distribuit.
+
+Alegeți una sau mai multe opțiuni:
+a. este un model de sistem de operare in care aplicatile distribuite ruleaza pe mai multe noduri interconectate prin retele de comunicatii.
+b. este o extensie a sistemului de operare de retea care implementeaza niveluri mai avansate de comunicare si integrare a masinilor in retea
+c. un sistem de operare fara componente de tip planificator de procese
+d. un sistem de operare centralizat, dar care ruleaza pe mai multe unitati centrale de procesare independente (CPU-uri)
+
+RASPUNS: a b d
+----------------
+
+105. Ce avantaje are Arhitectura Multi-Tier?
+
+Alegeți una sau mai multe opțiuni:
+a. depanarea facila
+b. rulare pe infrastructură de rețea complexă
+c. scalabilitate
+d. flexibilitate
+
+RASPUNS: c d
+anterior: toate
+----------------
+
+106. Ce implica transparenta paralelismului?
+
+Alegeți una sau mai multe opțiuni:
+a. Utilizarea componentelor astfel incat ar parea private
+b. O defectiune care a aparut nu va fi vizibila la locatia respectiva, ci mascata prin redundanta in sistemul subordonat
+c. Acces independent la procesoare indiferent daca componenta este locala sau de la distanta
+d. Executie automata paralela fara interventie din partea utilizatorului (momentan nu este realist)
+
+RASPUNS: d
+anterior: b c d
+----------------
+
+107. Marcati exemple de aplicatii client/server.
+
+Alegeți una sau mai multe opțiuni:
+a. Posta electronica
+b. Paint
+c. Sistem de gestiune a bazelor de date
+d. Calculator Windows
+
+RASPUNS: a c
+----------------
+
+108. Care dintre următoarele variante reprezintă funcții ale protocolului TCP?
+
+Alegeți una sau mai multe opțiuni:
+a. stabilirea unei conexiuni și închiderea acesteia
+b. recunoașterea și gestionarea erorilor
+c. controlul fluxului de biti
+d. transferul criptat de date
+
+RASPUNS: a b c d
+anterior: a c
+----------------
+
+109. Ce este un Rendezvous?
+
+Alegeți o opțiune:
+a. o comunicare explicita intre emitator si receptor
+b. acest termen nu are nicio semnificatie in sistemele disribuite
+c. cuplaj slab temporal al partenerilor de comunicare
+d. o forma de comunicare nealterata, care leaga foarte strans emitatorul si receptorul
+
+RASPUNS: d
+anterior: a
+----------------
+
+110. Care dintre urmatoarele pot fi resurse critice?
+
+Alegeți una sau mai multe opțiuni:
+a. Semnale
+b. Mesaje
+c. Date
+d. Obiecte software
+
+RASPUNS: a c d
+----------------
+
+
+111. Care dintre urmatoarele se incadreaza la arhitecturi middleware orientate pe documente?
+
+Alegeți o opțiune:
+a. Grid-Computing
+b. SunRPC
+c. CORBA
+d. Java Messaging Service (JMS)
+
+raspuns: c / a
+----------------
+
+----------------
+
+112. Proprietăți ale socket-urilor de tip stream (SOCK_STREAM) sunt:
+
+Alegeți una sau mai multe opțiuni:
+a. Comunicare fiabilă (de obicei un flux de octeți) între două capete de comunicare
+b. Permiterea accesului la protocoale subordonate precum IP, ICMP, etc
+c. Protocolul implicit este TCP
+d. În cazul socket-urilor Internet, protocolul implicit ce va fi utilizat va fi UDP 
+
+raspuns: b c d / c
+----------------
+
+----------------
+
+113. Toleranta la erori intr-un sistem distribuit:
+
+Alegeți una sau mai multe opțiuni:
+a. Are o importanta mai mica decat in sistemele centralizate
+b. Se refera si la erori hardware
+c. Nu impiedica functionarea sistemului daca exista cateva erori
+d. Sistemul nu functioneaza la prezenta unei erori
+
+raspuns: a b c
+----------------
+
+----------------
+114. Care sunt principalele functii efectuate de un sistem de operare in retea (NOS)?
+
+
+Alegeți una sau mai multe opțiuni:
+a. Execuția la distanță a programelori
+b. Sistem de fișiere
+c. Testare programe de retea
+d. Protectie
+
+raspuns: a b d
+----------------
