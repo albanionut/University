@@ -1,0 +1,655 @@
+Identificati o functie a algoritmului de sincronizare a cesurilor a lui Christian?
+
+Alege?i o op?iune:
+a. Sa verifice conexiunea clientului
+b. Sa verifice lungimea mesajului
+c. Sa verifice conexiunea serverului
+d. Sa masoare si sa ia in considerare durata media a unui roundtrip (durata transmitere cu receptionarea a cererii si raspunsului)
+
+R: d
+
+Care sunt caracteristici ale serviciilor web REST?
+
+Alege?i una sau mai multe op?iuni:
+a. Cache
+b. Stateless
+c. Sunt orientate pe niveluri
+d. Resursele sunt accesibile prin intermediul unei adrese URL
+
+R: toate
+
+Care este o abordare naturalã a rezolvãrii problemelor prin divizarea acestora?
+
+Alege?i una sau mai multe op?iuni:
+a. Impartirea unei sarcini locale in taskuri
+b. Asamblarea solu?iilor par?iale într-o solu?ie totalã
+c. Împãr?irea unei sarcini globale în subsarcini
+d. Adunarea solutiilor partiale in mai multe solutii
+
+R:a,b,c
+
+
+Ce comanda se utilizeaza pentru pornirea unui proces?
+
+Alege?i o op?iune:
+a. Split
+b. Execute
+c. Run
+d. Fork
+
+R: c
+
+Obiectivele de proiectare ale Network File System(NFS) sunt:
+
+Alege?i una sau mai multe op?iuni:
+a. indepartarea de standarde din industrie
+b. partajarea intr-o retea de sisteme eterogene
+c. tratarea usoara a pierderilor de job-uri
+d. transparenta accesului, portabilitatea si performanta
+
+R:toate
+
+
+Cãrei tip de arhitecturã îi apar?ine urmãtoarea diagramã?
+
+Alege?i o op?iune:
+a. NAS
+b. SAN
+c. AFS
+d. DAS
+
+R: a 
+
+Care sunt elementele ce tin de subproblema managementului ciclului de via?ã al informa?iilor?
+
+Alege?i una sau mai multe op?iuni:
+a. independenta datelor
+b. longevitatea
+c. volume mari de date brute
+d. integritatea
+
+R: a,b,d
+
+
+Un sistem de fi?iere distribuit este  blank
+
+R: este un sistem de fi?iere, care oferã pentru o parte din utilizatorii sãi un sistem de fi?iere accesibil pe toate ma?inile din re?ea
+
+
+Ce obiective sunt urmãrite în cazul sistemelor de fi?iere distribuit Andrew (AFS)?
+
+Alege?i una sau mai multe op?iuni:
+a. performan?a sporitã
+b. disponibilitate mare datoritã faptului cã autentificarea este securizatã
+c. disponibilitate ridicatã prin intermediul replicãrii
+d. siguran?ã sporitã prin intermediul replicãrii
+
+R: a, d 
+
+
+Caracteritici ale algoritmului bancherului sunt:
+
+Alege?i una sau mai multe op?iuni:
+a. este utilizat pentru a detecta interblocãrile
+b. resursele ?i procesele disponibile sunt cunoscute
+c. este utilizat pentru a rezolva blocãrile
+d. resursele sunt împãr?ite în resurse totale ?i resurse disponibile
+
+R: b,c,d
+
+
+Spatiile de adrese ale diferitelor procese sunt:
+
+Alege?i una sau mai multe op?iuni:
+a. Protejate impotriva interventiei altor procese
+b. Separate
+c. Definite de utilizator
+d. Deschise sa primeasca si alte procese
+
+R: a,b
+
+Toleranta la erori intr-un sistem distribuit:
+
+Alege?i una sau mai multe op?iuni:
+a. Se refera si la erori hardware
+b. Sistemul nu functioneaza la prezenta unei erori
+c. Nu impiedica functionarea sistemului daca exista cateva erori
+d. Are o importanta mai mica decat in sistemele centralizate
+
+R: c,d
+
+
+Ce functie are Write-Ahead Logging Protocol (protocol de prescriere a inregistrarilor de jurnalizare)?
+
+Alege?i o op?iune:
+a. inlantuirea/concatenarea intrarilor de jurnalizare aferente ale unui proces de commit
+b. scrierea sigura a inregistrarilor jurnal inainte de modificarea starii originale persistente
+c. paralelizarea fisierelor jurnal
+d. gestionarea erorilor de tranzactie, citirea jurnalelor
+
+R: b
+
+
+Care dintre urmatoarele pot fi resurse critice?
+
+Alege?i una sau mai multe op?iuni:
+a. Date
+b. Mesaje
+c. Semnale
+d. Obiecte software
+
+R: toate
+
+
+In modelul client-server care dintre componente initializeaza conexiunea?
+
+Alege?i o op?iune:
+a. Atat clientul cat si serverul
+b. Serverul
+c. Oricare
+d. Clientul
+
+R: d
+
+
+Printre avantajele serverelor fara stare (stateless - care nu retin informatii despre sesiuni sau tranzactiile desfasurate) se numara:
+
+Alege?i una sau mai multe op?iuni:
+a. recuperarea este usor de implemetat, nu exista probleme cu blocarea clientului
+b. performanta mai inalta, mesaje mai scurte
+c. numar nelimitat de fisiere deschise
+d. idempotenta operatiunilor mai usor de realizat
+
+R: b,c
+
+
+Care sunt func?ii specifice unei interfe?e Broker?
+
+Alege?i una sau mai multe op?iuni:
+a. Map
+b. Deregister
+c. Register
+d. Lookup
+
+R:all
+
+
+Procesele:
+
+Alege?i una sau mai multe op?iuni:
+a. Pot porni threduri in propiul spatiu de adrese
+b. Au propiul spatiu de adrese
+c. Nu pot rula mai mult de 10 threduri
+d. Primesc acelasi port dedicat la rulare
+
+R: a,b
+
+
+Care dintre urmatoarele afimratii referitoare la procese nu sunt corecte?
+
+
+Alege?i una sau mai multe op?iuni:
+a. Procesul nu are o un spatiu de adrese de memorie propriu pe care il utilizeaza
+b. Un thread este compus din mai multe procese
+c.
+Procesul are o un spatiu de adrese de memorie propriu pe care il utilizeaza
+d. Un process poate fi compus din mai multe thread-uri
+
+R:a,b
+
+nu face parte dintre obiectivele replicarii-->echilibrarea incarcarii
+
+
+Cu ajutorul carui mecanism pot fi protejate varibilele de stare in problema frizerului?
+
+Alege?i o op?iune:
+a. nici un raspuns corect
+b. folsind baze de date
+c. folsind fire de executie
+d. folosind mutexuri
+
+R: a
+
+
+Obiective tipice de proiectare ale sistemelor de fisiere distribuite:
+
+Alege?i una sau mai multe op?iuni:
+a. Securitate
+b. Nivel ridicat de transparen?ã
+c. Disponibilitate mare / toleran?ã la erori
+d. Performan?ã (similar accesului local)
+
+R: a,c
+
+Care dintre urmatoarele sunt afirmatii adevarate referitoare la complexitatea numarului de mesaje transferate in cazul algoritmului Peterson?
+
+Alege?i una sau mai multe op?iuni:
+a. numarul mediu de mesaje interschimbate este O (n log n)
+b. La fiecare fazã, numãrul de noduri active este cel pu?in înjumãtã?it, deci numãrul maxim de faze este | log n | + 1
+c. numarul mediu de mesaje interschimbate este O (n log n^2)
+d. sunt transmise un numãr de maxim de doua mesaje in fiecare fazã a algoritmului
+
+R: a,d
+
+Un sistem de operare implementeaza gestionarea proceselor prin:
+
+Alege?i una sau mai multe op?iuni:
+a. gestiunea descriptorilor de procese
+b. oprire de procese
+c. comutare de procese
+d. ierarhii de procese
+R:toate
+
+
+Care sunt conditii de aparitie a interblocarii (deadlock) dupa Coffman?
+
+Alege?i una sau mai multe op?iuni:
+a. Exista procese care cer resurse, dar pãstreazã în acela?i timp altele ocupate (hold and wait)
+b. Accesul la resurse nu se poate face fortat - se pot elibera doar de procesul care a ocupat resursele (non-preemptiune)
+c. Resursele sunt utilizate exclusiv de cãtre procesele ce le-au ocupat (excludere mutuala)
+d. Cel pu?in douã procese sunt dependente circular prin resursele cerute (asteptare circulara)
+
+R:toate
+
+Alegeti afirmatii referitoare la caracterul atomic al tranzactiilor:
+
+Alege?i una sau mai multe op?iuni:
+a. efectele unei tranzactii sunt inregistrate definitiv (chiar daca apar toate erorile permise)
+b. o tranzactie este o unitate indivizibila, care ori este efectuata in intregime, ori nu este efectuata deloc
+c. nu este vizibila nicio stare intermediara intre starea initiala si cea finala a rularii tranzactiei
+d. tranzactiile sunt executate independent unele de altele
+
+R:b,d
+
+Care dintre urmatoarele sunt platforme Java pentru comunicare asincrona?
+
+Alege?i una sau mai multe op?iuni:
+a. API
+b. JMS
+c. AMQP
+d. MQTT
+
+R: b,c,d
+
+
+Care sunt caracteristici ale retelelor de stocare (SAN)?
+
+Alege?i una sau mai multe op?iuni:
+a. o mai mare flexibilitate in atribuire
+b. reducerea costurilor
+c. posibilitatea recuperarii in caz de dezastru (oglindirea datelor in locatii aflate la distanta)
+d. scalabilitatea
+
+R:a,c,d
+
+
+Care dintre urmatoarele este un model de sistem de fisiere cu suport pentru un computer, mai multe procese si mai multi utilizatori?
+
+Alege?i una sau mai multe op?iuni:
+a. OS/2
+b. MacOS
+c. peer-to-peer
+d. UNIX
+
+R:c
+
+
+Caracteristici memorie cache:
+
+Alege?i una sau mai multe op?iuni:
+a. Dimensiune mare a blocului pentru transferul eficient (de obicei 8 KB)
+b. Memorarea în cache a blocurilor individuale din fi?iere
+c. Accesul la fi?iere executabile cu dimensiunea < prag permite un transfer complet
+d. Read-ahead (preîncarcarea) urmãtorului bloc
+
+R:a,b,d
+
+Care sunt avantajele ale unei arhitecturi orientate pe servicii?
+
+Alege?i una sau mai multe op?iuni:
+a. cre?terea efortului pentru integrare ?i tratare erori
+b. performan?ã mai slabã
+c. flexibilitate pentru modificãrile necesare, între?inerea serviciilor si schimbarea intre ele
+d. eficacitate ridicata
+
+R:c,d
+
+Abrevierea SAN vine de la:
+
+Alege?i o op?iune:
+a. Storage Area Network
+b. Storage Accessed by Network
+c. System Accessed by Network
+d. System Area Network
+
+R:a
+
+In comunicarea Client/Server
+
+Alege?i una sau mai multe op?iuni:
+a. clientul gestioneaza serviciile serverului
+b. clientul utilizeaza serviciile serverului
+c. serverul isi pune serviciile la dispozitie clientilor
+d. serverul isi gaseste propii clienti
+
+R:b,c
+
+Care dintre urmatoarele nu este o componenta sau implemenatre a unei platforme arhitecturale de tipul Common Object Request Broker?
+
+Alege?i o op?iune:
+a. BEA Weblogic
+b. THC Hydra
+c. Jac ORB
+d. IONA Orbix
+R:b
+
+Din ce este format un process?
+
+Alege?i una sau mai multe op?iuni:
+a. Date program
+b.
+Program executabil
+c. Clasa main
+d. Stiva
+R:a,b,d
+
+NAS inseamna:
+
+Alege?i o op?iune:
+a. Network Accessed Storage
+b. Network Attached Storage
+c. Network Attached System
+d. Not Active System
+R:b
+
+Care sunt caracteristicile de bazã ale unui log (fisier jurnal)?
+
+
+Alege?i una sau mai multe op?iuni:
+a. Logul nu poate fi este partajat între mai multe noduri
+b. Realizarea logurilor în fi?iere replicate (stocare stabilã) ?i în mai multe fi?iere de log generate
+c. Logul constã dintr-o succesiune de a?a-numite înregistrãri identificate prin numãrul de secven?ã de log (LSN)
+d. Logurile sunt folosite pentru depanarea problemelor apãrute în general pe serverele dintr-o re?ea
+
+R:c,d
+
+Caracteristici ale gradului de specializare al arhitecturii Middleware.
+
+Alege?i una sau mai multe op?iuni:
+a. centrat catre o baza de date
+b. are valori negative
+c. diferentiat
+d. ia valori de la unu la trei pe o scara standard
+R:a,c
+
+Cum se asigura scalabilitatea unei arhitecturi software?
+
+Alege?i una sau mai multe op?iuni:
+a. Clonarea serviciilor
+b. Divizarea unui serviciu in sub-servicii specializate
+c. Divizarea unui serviciu in functie de tipurile de consumatori de servicii
+d. Crearea de servicii cu interfa?ã simplã ?i dependen?e pu?ine 
+R:b,d
+
+Ce tipuri de erori preintampinate exista intr-un sistem distribuit?
+
+Alege?i una sau mai multe op?iuni:
+a. Erori identificate dar inevitabile
+b. Erorile evitate
+c. Erori grave
+d. Erori neasteptate
+
+R:a,d
+
+Ce dezavantaje are protocolul 2PC (commit in doua faze) in cazul arhitecturilor orientate pe servicii?
+
+Alege?i una sau mai multe op?iuni:
+a. 2PC nu implicã cuplarea liberã
+b. Nu exista probleme in cazul proceselor de durata
+c. Necesitã ca toate sistemele ?i serviciile participante sa fie disponibile
+d. Doar primele n pãr?i ale unei tranzac?ii distribuite sunt executate
+R:a,c
+
+Care sunt avantajele unui sistem de tipul Network Attached Storage (NAS)?
+
+Alege?i una sau mai multe op?iuni:
+a. scalabilitatea
+b. reutilizarea memoriei
+c. posibilitatea de extindere a memoriei
+d. este foarte potrivit în cazul aplica?iilor bazate pe accesul extern la date
+
+R:a,c,d
+
+Care sunt dezavantajele algortimului lui Christian?
+Alege?i una sau mai multe op?iuni:
+a. Oscilatiile timpilor de citire a cererilor de sincronizare
+b. Oscilatiile duratelor de shimbare a mesajelor
+c. Nu se contorizeaza timpul
+d. Ceasul se poate invarti "invers"
+R:b,d
+
+Sistemele de fisiere acociate adiacent permit:
+
+Alege?i una sau mai multe op?iuni:
+a. accesarea fisierelor de la distanta
+b. transfer de fisiere intre sisteme de fisiere izolate
+c. specificarea explicita a locatiei in denumirea fisierului
+d. doar acces local
+R:a,b
+
+Pe ce se bazeaza Java Message Service API (JMS) ?
+
+Alege?i una sau mai multe op?iuni:
+a. Open Source ?i implementãri comerciale
+b. Comunicare asincronã ?i fiabilã
+c. Interfa?ã de programare pentru controlul unui Middleware orientat pe mesaje (MOM) bazat pe Java (J2EE)
+d. Componenta server trebuie sã implementeze acest API
+
+R:b,c,d
+
+Ce este un proces?
+
+
+Alege?i o op?iune:
+a. Un program compilat ce asteapta sa fie rulat
+b. Un proces este un program secvential in executie, impreuna cu zona sa de date, stiva si numaratorul de instructiuni (program counter).
+c. Este zona de date utilizata pentru executia programelor
+d.Este o secventa de instructiuni
+R:b
+
+Ce rol are un Dispatcher-Thread?
+
+Alege?i o op?iune:
+a. Asculta cereri de retea si porneste threaduri de tip Worker pentru a le deservi
+b. Trimite raspunsuri la cereri din retea primite
+c. Verifica disponibilitatea unei pagini de memorie cerute de alte threaduri in memoria cache.
+d. Asigura securitatea retelei
+R:a
+
+Care dintre urmatoarele afirmatii despre transparenta de locatie este adevarata?
+
+Alege?i o op?iune:
+a.
+Daca o resursa este accesata de mai multi utilizatori in acelasi timp, utilizatorii nu trebuie sa fie constienti de acest lucru
+b.
+Utilizatorii unui sistem distribuit nu trebuie sa cunoasca locatia fizica a unei resurse folosite
+c.
+Daca o resursa este replicata in mai multe locatii, un utilizator ar trebui sa o vada ca o singura resursa
+d.
+Daca locatia unei resurse se schimba in timp ce este folosita, un utilizator nu trebuie sa fie constient de acest lucru
+R:b
+
+Care dintre urmatoarele sunt proprietati ale NFS (Network File System)?
+
+Alege?i una sau mai multe op?iuni:
+a. Fiecare server exportã unul sau mai multe directoare
+b. Accesul la directoare nu necesitã montarea acestora
+c. Fiecare nod poate fi client ?i server în acela?i timp
+d. Nu este posibilã utilizarea în comun de directoare
+
+R:a,c
+
+Ce tip de canale de mesaje este utilizat de algoritmul Lamport?
+
+Alege?i o op?iune:
+a. FIFO
+b. Niciun raspuns corect
+c. LIFO
+d. Directe
+
+R:a
+
+Care sunt avantajele unei dependinte slabe intre proprocese?
+
+Alege?i una sau mai multe op?iuni:
+a. Timpii de a?teptare pentru citiri/tipariri sunt utilizabili automat de alte procese
+b. O buna organizaree si administarea a activitatii
+c. Utilizare bunã a resurselor
+d. Grad de libertate ridicat în executarea de subprocese
+
+R:b,c,d
+
+Care este solutia propusa de algoritmul Vogel-Strauss pentru un deadlock?
+
+Alege?i o op?iune:
+a. unul dintre  procesele care reuleaza trebuie sa se opreasca
+b. procesele implicate trebuie rulate pe rand
+c. un proces sa porneasca numai atunci cand nu utilizeaza variabile globale
+d. la aparitia unui deadlock acesta trebuie ingorat 
+R:d
+
+Avantaje ale serverelor stateful (retin detalii despre sesiuni de conectare/lucru sau tranzactiile desfasurate).
+
+Alege?i una sau mai multe op?iuni:
+a. Refacerea se poate realiza u?or
+b. Este posibilã blocarea fi?ierelor
+c. Numãrul de fi?iere deschise este nelimitat
+d. Performan?ã mai mare
+R:a,d
+
+Care dintre urmatorii algoritmi sunt bazati pe quorum?
+
+a)
+
+b) Cao ?i Singhal: intarziere de coordonare optimizata
+
+c) Algoritmul Perpetuum Mobile
+
+d) Algoritmul lui Suzuki ?i Kasami
+
+Alege?i una sau mai multe op?iuni:
+a. Algoritmul Suzuki-Kasami
+b. Algoritmul Perpetuum Mobile
+c.  Sanders - bazat pe permisiune universala
+d. Cao ?i Singhal - optimizarea pentru intarzierea de coordonare
+R:c,d
+
+Cum detecteaza nodurile ce rezolva un algoritm distribuit terminarea acestuia?
+
+Alege?i una sau mai multe op?iuni:
+a. Un observator global afla ca toate nodurile au aceeasi valoare
+b. Un observator local al nodului afla ca toate nodurile au aceeasi valoare
+c. Valoara locala a nodului este egala cu valoarea cautat de algoritmul distribuit
+d. Sarcinile de calcul s-au termina
+R:a,c,d
+
+Arhitectura arborescenta a protocolului de sicronizarea a ceasurilor NTP (Network Time Protocol) contine:
+
+Alege?i una sau mai multe op?iuni:
+a. Ceasuri precise
+b. Servere de timp secundare
+c. Servere de timp primare
+d. Noduri frunza
+R:b,c,d
+
+Care este complexitate (de timp si mesaje transferate) in cazul cel mai defavorabil pentru algoritmul Chang-Roberts?
+
+Alege?i una sau mai multe op?iuni:
+a. timp mediu de executie O (n)
+b. numar mediu de mesaje O (n^2)
+c. numar mediu de mesaje O (n)
+d. timp mediu de executie O (n^2)
+
+R:b,d
+
+Marcati componente care alcatuiesc arhitectura Client/Server.
+
+Alege?i una sau mai multe op?iuni:
+a. Logica aplicatiei
+b. Calculatorul server
+c. Calculatorul client
+d. Arhitectura logica a retelei
+R:b,c
+
+Care succesiunea de stari de mai jos este un exemplu de decizie de anulare a tranzactiei din partea unui partener?
+
+Alege?i una sau mai multe op?iuni:
+a. prepare - ready - done - abort
+b. prepare - done - abort
+c. prepare - prepared - abort
+d. ready - prepared - abort
+
+R:a
+
+Semnatica de sesiune permite:
+
+Alege?i una sau mai multe op?iuni:
+a. ca schimbarile sa fie vizibile imediat pentru toata lumea
+b. stocare in memorie cache locala atata timp cat fisierul este deschis
+c. actualizarea fisierul la inchidere
+d. ca modificarile pe o multime de fisiere sa aiba loc atomic
+R:a,b,c
+
+Care este ordinea in care se executa operatiile intr-un sistem RPC la trimiterea unui mesaj de la client la server?
+1.Stub-ul serverului decupleaza parametrii din mesaj....
+2.Sistemul de operare local al clientului trimite mesajul de ma masina client catre masina server
+3.Sistemul de operare local de pe masina serverului transmite pachetele de intrare in stub-ul serverului
+4.Stub-ul clientului impacheteaza parametrii intr-un mesaj si face....
+5.Stub-ul serverului apeleaza procedura serverului
+6. Clientul apeleaza stub-ul clientuli. Apelul este....
+
+Tipuri posibile de transparenta:
+- transparenta numelui ---> numele fisierului este identic in toate locurile
+- transparenta locatiei ---> numele fisierului nu contine o locatie
+- transparenta acces ----> acelasi api...
+
+Asociati proprietati ale sistemelor de fisiere distribuite cu interpretarea acestora
+- suport pentru tranzactii ---> spre exemplu...
+- sesiune de lucru ---> actualizarea...
+- suport fisiere read-only ---> nu sunt posibile modificari
+- consistenta stricta ----> modificarile la fisiere
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
